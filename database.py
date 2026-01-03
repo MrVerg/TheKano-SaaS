@@ -1,4 +1,6 @@
 import os
+import logging
+import pymysql
 from dotenv import load_dotenv
 
 # Cargar variables de entorno si existen
