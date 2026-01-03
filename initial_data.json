@@ -1,0 +1,3329 @@
+{
+    "salas": [
+        {
+            "id": 1,
+            "nombre": "Sala 1",
+            "capacidad": 40,
+            "tipo": "Aula"
+        },
+        {
+            "id": 2,
+            "nombre": "Sala 2",
+            "capacidad": 40,
+            "tipo": "Aula"
+        },
+        {
+            "id": 3,
+            "nombre": "Sala 3",
+            "capacidad": 40,
+            "tipo": "Teórica"
+        },
+        {
+            "id": 4,
+            "nombre": "Sala 4",
+            "capacidad": 40,
+            "tipo": "Aula"
+        },
+        {
+            "id": 5,
+            "nombre": "Taller Simulación",
+            "capacidad": 40,
+            "tipo": "Laboratorio"
+        },
+        {
+            "id": 6,
+            "nombre": "Laboratorio de Computación",
+            "capacidad": 40,
+            "tipo": "Laboratorio"
+        },
+        {
+            "id": 7,
+            "nombre": "Taller de instrumentación",
+            "capacidad": 40,
+            "tipo": "Laboratorio"
+        },
+        {
+            "id": 8,
+            "nombre": "Laboratorio",
+            "capacidad": 40,
+            "tipo": "Laboratorio"
+        },
+        {
+            "id": 9,
+            "nombre": "Taller de Innovación",
+            "capacidad": 40,
+            "tipo": "Laboratorio"
+        },
+        {
+            "id": 10,
+            "nombre": "Auditorio",
+            "capacidad": 40,
+            "tipo": "Auditorio"
+        },
+        {
+            "id": 11,
+            "nombre": "Taller Maquinaria Pesada",
+            "capacidad": 40,
+            "tipo": "Auditorio"
+        },
+        {
+            "id": 12,
+            "nombre": "Box Clínico",
+            "capacidad": 40,
+            "tipo": "Laboratorio"
+        }
+    ],
+    "carreras": [
+        {
+            "id": 1,
+            "nombre": "Administración Mención Gestión Pública",
+            "jornada": "Diurna",
+            "alumnos_proyectados": 20
+        },
+        {
+            "id": 2,
+            "nombre": "Administración Mención Gestión Pública",
+            "jornada": "Vespertina",
+            "alumnos_proyectados": 20
+        },
+        {
+            "id": 3,
+            "nombre": "TNS en Construcción",
+            "jornada": "Diurna",
+            "alumnos_proyectados": 18
+        },
+        {
+            "id": 4,
+            "nombre": "Computación e Informática Mención Programación",
+            "jornada": "Diurna",
+            "alumnos_proyectados": 20
+        },
+        {
+            "id": 5,
+            "nombre": "Electricidad y Electrónica Industrial",
+            "jornada": "Diurna",
+            "alumnos_proyectados": 25
+        },
+        {
+            "id": 6,
+            "nombre": "TNS en Educación de Párvulos",
+            "jornada": "Diurna",
+            "alumnos_proyectados": 43
+        },
+        {
+            "id": 7,
+            "nombre": "TNS en Educación de Párvulos",
+            "jornada": "Vespertina",
+            "alumnos_proyectados": 11
+        },
+        {
+            "id": 8,
+            "nombre": "Enfermería y Telemedicina",
+            "jornada": "Diurna",
+            "alumnos_proyectados": 50
+        },
+        {
+            "id": 9,
+            "nombre": "Intervención y Rehabilitación Psicosocial",
+            "jornada": "Diurna",
+            "alumnos_proyectados": 14
+        },
+        {
+            "id": 10,
+            "nombre": "Maquinaria Pesada",
+            "jornada": "Diurna",
+            "alumnos_proyectados": 35
+        },
+        {
+            "id": 11,
+            "nombre": "Mecánica de Equipo Pesado",
+            "jornada": "Diurna",
+            "alumnos_proyectados": 30
+        },
+        {
+            "id": 12,
+            "nombre": "Nueva Carrera",
+            "jornada": "Diurna",
+            "alumnos_proyectados": 40
+        }
+    ],
+    "docentes": [
+        {
+            "id": 1,
+            "nombre": "Cristobal Quintana Gonzalez",
+            "titulo": "Abogado",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "cristobal.gonzalez@ceduc.cl",
+            "evaluacion": 3.89
+        },
+        {
+            "id": 2,
+            "nombre": "Gary Guerrero Barra",
+            "titulo": "Administrador Público / Magister",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "gary.barra@ceduc.cl",
+            "evaluacion": 4.0
+        },
+        {
+            "id": 3,
+            "nombre": "Roberto Leal Cofré",
+            "titulo": "Ingeniero en Comercialización Int.",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "roberto.cofré@ceduc.cl",
+            "evaluacion": 3.94
+        },
+        {
+            "id": 4,
+            "nombre": "Nelson Salazar Matamala",
+            "titulo": "Profesor en Educación Diferencial",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "nelson.matamala@ceduc.cl",
+            "evaluacion": 3.76
+        },
+        {
+            "id": 5,
+            "nombre": "Katherine Medina Suazo",
+            "titulo": "Ingeniero en Prevención",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "katherine.suazo@ceduc.cl",
+            "evaluacion": 3.9
+        },
+        {
+            "id": 6,
+            "nombre": "Natalia Vera Leal",
+            "titulo": "Ingeniero Civil Industrial",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "natalia.leal@ceduc.cl",
+            "evaluacion": 3.71
+        },
+        {
+            "id": 7,
+            "nombre": "Oscar Muñoz Arriagada",
+            "titulo": "Administrador Público",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "oscar.arriagada@ceduc.cl",
+            "evaluacion": 3.95
+        },
+        {
+            "id": 8,
+            "nombre": "Patricio Diaz Antinao",
+            "titulo": "Profesor de Matemáticas",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "patricio.antinao@ceduc.cl",
+            "evaluacion": 3.85
+        },
+        {
+            "id": 9,
+            "nombre": "Manuel Valderas",
+            "titulo": "Contador Auditor",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "manuel.valderas@ceduc.cl",
+            "evaluacion": 3.77
+        },
+        {
+            "id": 10,
+            "nombre": "Efrain Barahona Barahona",
+            "titulo": "Ingeniero Informático",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "efrain.barahona@ceduc.cl",
+            "evaluacion": 3.84
+        },
+        {
+            "id": 11,
+            "nombre": "Cristian Rodriguez Lobos",
+            "titulo": "Diplomado Gestión Municipal",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "cristian.lobos@ceduc.cl",
+            "evaluacion": 3.9
+        },
+        {
+            "id": 12,
+            "nombre": "Marcelo Oporto Toledo",
+            "titulo": "Analista Programador",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "marcelo.toledo@ceduc.cl",
+            "evaluacion": 3.19
+        },
+        {
+            "id": 13,
+            "nombre": "Francisco Rodriguez Araneda",
+            "titulo": "Constructor Civil",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "francisco.araneda@ceduc.cl",
+            "evaluacion": 3.93
+        },
+        {
+            "id": 14,
+            "nombre": "Marcelo Rios Alarcón",
+            "titulo": "Constructor Civil",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "marcelo.alarcón@ceduc.cl",
+            "evaluacion": 0.0
+        },
+        {
+            "id": 15,
+            "nombre": "Cesar Quintana Gonzalez",
+            "titulo": "Psicologo",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "cesar.gonzalez@ceduc.cl",
+            "evaluacion": 3.91
+        },
+        {
+            "id": 16,
+            "nombre": "Martina Saldivia Muñoz",
+            "titulo": "Profesora de Inglés",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "martina.muñoz@ceduc.cl",
+            "evaluacion": 3.81
+        },
+        {
+            "id": 17,
+            "nombre": "Juan Larenas Hidalgo",
+            "titulo": "Psicólogo",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "juan.hidalgo@ceduc.cl",
+            "evaluacion": 3.93
+        },
+        {
+            "id": 18,
+            "nombre": "Julia San Martin Reyes",
+            "titulo": "Ingeniera Electricidad",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "julia.reyes@ceduc.cl",
+            "evaluacion": 0.0
+        },
+        {
+            "id": 19,
+            "nombre": "Diego Faúndez Oporto",
+            "titulo": "TNS Electricidad",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "diego.oporto@ceduc.cl",
+            "evaluacion": 3.98
+        },
+        {
+            "id": 20,
+            "nombre": "Nelson Lagos Fuentes",
+            "titulo": "TNS Electrónica",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "nelson.fuentes@ceduc.cl",
+            "evaluacion": 3.75
+        },
+        {
+            "id": 21,
+            "nombre": "Carlos Monsálvez Ramírez",
+            "titulo": "Ingeniero Ejecución Electrónica",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "carlos.ramírez@ceduc.cl",
+            "evaluacion": 3.91
+        },
+        {
+            "id": 22,
+            "nombre": "Scarlette Muñoz Fuentes",
+            "titulo": "Psicologa",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "scarlette.fuentes@ceduc.cl",
+            "evaluacion": 3.9
+        },
+        {
+            "id": 23,
+            "nombre": "Ingerworld Rivera Rivera",
+            "titulo": "Educadora de Párvulos",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "ingerworld.rivera@ceduc.cl",
+            "evaluacion": 3.7
+        },
+        {
+            "id": 24,
+            "nombre": "Veronica Astudillo Vera",
+            "titulo": "Enfermera",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "veronica.vera@ceduc.cl",
+            "evaluacion": 3.8
+        },
+        {
+            "id": 25,
+            "nombre": "Natacha Miranda Flores",
+            "titulo": "TNS Educación Parvularia",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "natacha.flores@ceduc.cl",
+            "evaluacion": 0.0
+        },
+        {
+            "id": 26,
+            "nombre": "Daniela Montecino Lara",
+            "titulo": "Educadora Diferencial",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "daniela.lara@ceduc.cl",
+            "evaluacion": 3.9
+        },
+        {
+            "id": 27,
+            "nombre": "Camila Gonzalez Ortiz",
+            "titulo": "Enfermera",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "camila.ortiz@ceduc.cl",
+            "evaluacion": 0.0
+        },
+        {
+            "id": 28,
+            "nombre": "Michael Peña Matamala",
+            "titulo": "Tecnólogo Informática Biomédica",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "michael.matamala@ceduc.cl",
+            "evaluacion": 3.95
+        },
+        {
+            "id": 29,
+            "nombre": "Marcelo Luarte González",
+            "titulo": "Enfermero",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "marcelo.gonzález@ceduc.cl",
+            "evaluacion": 3.6
+        },
+        {
+            "id": 30,
+            "nombre": "Glenda Bahamondes Vidal",
+            "titulo": "Matrona",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "glenda.vidal@ceduc.cl",
+            "evaluacion": 3.85
+        },
+        {
+            "id": 31,
+            "nombre": "Victor Curinao Vidal",
+            "titulo": "TNS Maquinaria Pesada",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "victor.vidal@ceduc.cl",
+            "evaluacion": 3.6
+        },
+        {
+            "id": 32,
+            "nombre": "Francisco Rivas Neira",
+            "titulo": "Técnico Mecánica Automotriz",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "francisco.neira@ceduc.cl",
+            "evaluacion": 3.9
+        },
+        {
+            "id": 33,
+            "nombre": "Gerald Santa María Salazar",
+            "titulo": "TNS Maquinaria Pesada",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "gerald.salazar@ceduc.cl",
+            "evaluacion": 3.7
+        },
+        {
+            "id": 34,
+            "nombre": "César Palma Márquez",
+            "titulo": "Técnico Electromecánico",
+            "contrato": "Honorario",
+            "horas_contratadas": 44,
+            "email": "césar.márquez@ceduc.cl",
+            "evaluacion": 3.7
+        },
+        {
+            "id": 35,
+            "nombre": "Test",
+            "titulo": "test",
+            "contrato": "Planta",
+            "horas_contratadas": 50,
+            "email": "test@test.com",
+            "evaluacion": 5.0
+        }
+    ],
+    "modulos": [
+        {
+            "id": 1,
+            "nombre": "Gestión de Personas en el Sector Privado",
+            "codigo": "AP-310-2",
+            "horas_teoricas": 1,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 10,
+            "semestre": 4,
+            "carrera_id": 1,
+            "docente_id": 1,
+            "sala_id": 1
+        },
+        {
+            "id": 2,
+            "nombre": "Administración Pública III",
+            "codigo": "AP-120-4",
+            "horas_teoricas": 2,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 10,
+            "semestre": 4,
+            "carrera_id": 1,
+            "docente_id": 2,
+            "sala_id": 1
+        },
+        {
+            "id": 3,
+            "nombre": "Marketing de productos y servicios",
+            "codigo": "AP-410-0",
+            "horas_teoricas": 1,
+            "horas_practicas": 3,
+            "alumnos_proyectados": 10,
+            "semestre": 4,
+            "carrera_id": 1,
+            "docente_id": 3,
+            "sala_id": 1
+        },
+        {
+            "id": 4,
+            "nombre": "Ética",
+            "codigo": "AP-430-0",
+            "horas_teoricas": 1,
+            "horas_practicas": 1,
+            "alumnos_proyectados": 10,
+            "semestre": 4,
+            "carrera_id": 1,
+            "docente_id": 4,
+            "sala_id": 1
+        },
+        {
+            "id": 5,
+            "nombre": "Salud Ocupacional",
+            "codigo": "AP-420-0",
+            "horas_teoricas": 1,
+            "horas_practicas": 1,
+            "alumnos_proyectados": 10,
+            "semestre": 4,
+            "carrera_id": 1,
+            "docente_id": 5,
+            "sala_id": 1
+        },
+        {
+            "id": 6,
+            "nombre": "Taller de Emprendimiento",
+            "codigo": "AP-440-0",
+            "horas_teoricas": 0,
+            "horas_practicas": 3,
+            "alumnos_proyectados": 10,
+            "semestre": 4,
+            "carrera_id": 1,
+            "docente_id": 6,
+            "sala_id": 1
+        },
+        {
+            "id": 7,
+            "nombre": "Legislación Laboral",
+            "codigo": "AP-210-0",
+            "horas_teoricas": 2,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 20,
+            "semestre": 2,
+            "carrera_id": 2,
+            "docente_id": 1,
+            "sala_id": 2
+        },
+        {
+            "id": 8,
+            "nombre": "Administración I",
+            "codigo": "AP-120-2",
+            "horas_teoricas": 2,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 20,
+            "semestre": 2,
+            "carrera_id": 2,
+            "docente_id": 7,
+            "sala_id": 2
+        },
+        {
+            "id": 9,
+            "nombre": "Introducción a la Micro y Macroeconomía",
+            "codigo": "AP-220-0",
+            "horas_teoricas": 2,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 20,
+            "semestre": 2,
+            "carrera_id": 2,
+            "docente_id": 8,
+            "sala_id": 2
+        },
+        {
+            "id": 10,
+            "nombre": "Presupuesto y Contabilidad Gubernamental",
+            "codigo": "AP-140-2",
+            "horas_teoricas": 2,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 20,
+            "semestre": 2,
+            "carrera_id": 2,
+            "docente_id": 9,
+            "sala_id": 2
+        },
+        {
+            "id": 11,
+            "nombre": "Herramientas Digitales para la Gestión I",
+            "codigo": "AP-230-1",
+            "horas_teoricas": 0,
+            "horas_practicas": 3,
+            "alumnos_proyectados": 20,
+            "semestre": 2,
+            "carrera_id": 2,
+            "docente_id": 10,
+            "sala_id": 2
+        },
+        {
+            "id": 12,
+            "nombre": "Documentación Administrativa y Comercial",
+            "codigo": "AP-240-0",
+            "horas_teoricas": 0,
+            "horas_practicas": 3,
+            "alumnos_proyectados": 20,
+            "semestre": 2,
+            "carrera_id": 2,
+            "docente_id": 11,
+            "sala_id": 2
+        },
+        {
+            "id": 13,
+            "nombre": "Taller de Proyecto y Emprendimiento I",
+            "codigo": "AP-250-1",
+            "horas_teoricas": 0,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 20,
+            "semestre": 2,
+            "carrera_id": 2,
+            "docente_id": 12,
+            "sala_id": 2
+        },
+        {
+            "id": 14,
+            "nombre": "Taller de Albañilería",
+            "codigo": "CC-311-3",
+            "horas_teoricas": 1,
+            "horas_practicas": 4,
+            "alumnos_proyectados": 18,
+            "semestre": 4,
+            "carrera_id": 3,
+            "docente_id": 13,
+            "sala_id": 3
+        },
+        {
+            "id": 15,
+            "nombre": "Presupuesto",
+            "codigo": "CC-321-2",
+            "horas_teoricas": 1,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 18,
+            "semestre": 4,
+            "carrera_id": 3,
+            "docente_id": 13,
+            "sala_id": 3
+        },
+        {
+            "id": 16,
+            "nombre": "Taller de Terminaciones",
+            "codigo": "CC-411-0",
+            "horas_teoricas": 1,
+            "horas_practicas": 4,
+            "alumnos_proyectados": 18,
+            "semestre": 4,
+            "carrera_id": 3,
+            "docente_id": 13,
+            "sala_id": 3
+        },
+        {
+            "id": 17,
+            "nombre": "Planificación de Obras de Edificación",
+            "codigo": "CC-421-0",
+            "horas_teoricas": 1,
+            "horas_practicas": 3,
+            "alumnos_proyectados": 18,
+            "semestre": 4,
+            "carrera_id": 3,
+            "docente_id": 14,
+            "sala_id": 3
+        },
+        {
+            "id": 18,
+            "nombre": "Ética Profesional",
+            "codigo": "CC-431-2",
+            "horas_teoricas": 2,
+            "horas_practicas": 0,
+            "alumnos_proyectados": 18,
+            "semestre": 4,
+            "carrera_id": 3,
+            "docente_id": 15,
+            "sala_id": 3
+        },
+        {
+            "id": 19,
+            "nombre": "Psicología Personal y Laboral",
+            "codigo": "CC 420-2",
+            "horas_teoricas": 1,
+            "horas_practicas": 1,
+            "alumnos_proyectados": 18,
+            "semestre": 4,
+            "carrera_id": 3,
+            "docente_id": 15,
+            "sala_id": 3
+        },
+        {
+            "id": 20,
+            "nombre": "Innovación y Emprendimiento IV",
+            "codigo": "CC-171-4",
+            "horas_teoricas": 1,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 18,
+            "semestre": 4,
+            "carrera_id": 3,
+            "docente_id": 11,
+            "sala_id": 3
+        },
+        {
+            "id": 21,
+            "nombre": "Configuración y Puesta en marcha de Redes LAN",
+            "codigo": "CP-110-2",
+            "horas_teoricas": 1,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 20,
+            "semestre": 2,
+            "carrera_id": 4,
+            "docente_id": 10,
+            "sala_id": 4
+        },
+        {
+            "id": 22,
+            "nombre": "Matemáticas Aplicadas II",
+            "codigo": "CP-120-2",
+            "horas_teoricas": 2,
+            "horas_practicas": 1,
+            "alumnos_proyectados": 20,
+            "semestre": 2,
+            "carrera_id": 4,
+            "docente_id": 8,
+            "sala_id": 4
+        },
+        {
+            "id": 23,
+            "nombre": "Programación Orientada a Objetos I",
+            "codigo": "CP-130-2",
+            "horas_teoricas": 2,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 18,
+            "semestre": 2,
+            "carrera_id": 4,
+            "docente_id": 12,
+            "sala_id": 4
+        },
+        {
+            "id": 24,
+            "nombre": "Sistemas Operativos I",
+            "codigo": "CP-140-2",
+            "horas_teoricas": 1,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 20,
+            "semestre": 2,
+            "carrera_id": 4,
+            "docente_id": 10,
+            "sala_id": 4
+        },
+        {
+            "id": 25,
+            "nombre": "Inglés II",
+            "codigo": "CP-170-2",
+            "horas_teoricas": 1,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 20,
+            "semestre": 2,
+            "carrera_id": 4,
+            "docente_id": 16,
+            "sala_id": 4
+        },
+        {
+            "id": 26,
+            "nombre": "Bases de Datos I",
+            "codigo": "CP-210-1",
+            "horas_teoricas": 2,
+            "horas_practicas": 1,
+            "alumnos_proyectados": 20,
+            "semestre": 2,
+            "carrera_id": 4,
+            "docente_id": 10,
+            "sala_id": 4
+        },
+        {
+            "id": 27,
+            "nombre": "Taller Práctico I",
+            "codigo": "CP-220-1",
+            "horas_teoricas": 0,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 20,
+            "semestre": 2,
+            "carrera_id": 4,
+            "docente_id": 3,
+            "sala_id": 4
+        },
+        {
+            "id": 28,
+            "nombre": "Desarrollo de Aplicaciones Web",
+            "codigo": "CP-410-0",
+            "horas_teoricas": 1,
+            "horas_practicas": 3,
+            "alumnos_proyectados": 15,
+            "semestre": 4,
+            "carrera_id": 4,
+            "docente_id": 12,
+            "sala_id": 4
+        },
+        {
+            "id": 29,
+            "nombre": "Ética Profesional",
+            "codigo": "CP-440-1",
+            "horas_teoricas": 2,
+            "horas_practicas": 0,
+            "alumnos_proyectados": 22,
+            "semestre": 4,
+            "carrera_id": 4,
+            "docente_id": 17,
+            "sala_id": 4
+        },
+        {
+            "id": 30,
+            "nombre": "Tecnología y Control de Máquinas Eléctricas I",
+            "codigo": "EI-201-1",
+            "horas_teoricas": 1,
+            "horas_practicas": 3,
+            "alumnos_proyectados": 25,
+            "semestre": 2,
+            "carrera_id": 5,
+            "docente_id": 18,
+            "sala_id": 5
+        },
+        {
+            "id": 31,
+            "nombre": "Software de Diseño e Interpretación de Planos",
+            "codigo": "EI-202-0",
+            "horas_teoricas": 0,
+            "horas_practicas": 4,
+            "alumnos_proyectados": 25,
+            "semestre": 2,
+            "carrera_id": 5,
+            "docente_id": 19,
+            "sala_id": 5
+        },
+        {
+            "id": 32,
+            "nombre": "Electrotecnia II",
+            "codigo": "EI-103-2",
+            "horas_teoricas": 3,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 25,
+            "semestre": 2,
+            "carrera_id": 5,
+            "docente_id": 19,
+            "sala_id": 5
+        },
+        {
+            "id": 33,
+            "nombre": "Instalaciones Eléctricas II",
+            "codigo": "EI-104-2",
+            "horas_teoricas": 1,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 25,
+            "semestre": 2,
+            "carrera_id": 5,
+            "docente_id": 20,
+            "sala_id": 5
+        },
+        {
+            "id": 34,
+            "nombre": "Electronica Básica",
+            "codigo": "EI-203-1",
+            "horas_teoricas": 1,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 25,
+            "semestre": 2,
+            "carrera_id": 5,
+            "docente_id": 21,
+            "sala_id": 5
+        },
+        {
+            "id": 35,
+            "nombre": "Aprendizaje y Desarrollo II",
+            "codigo": "EP-111-2",
+            "horas_teoricas": 2,
+            "horas_practicas": 1,
+            "alumnos_proyectados": 43,
+            "semestre": 2,
+            "carrera_id": 6,
+            "docente_id": 22,
+            "sala_id": 6
+        },
+        {
+            "id": 36,
+            "nombre": "Bases Curriculares para la Educ Parvularia I",
+            "codigo": "EP-211-1",
+            "horas_teoricas": 2,
+            "horas_practicas": 3,
+            "alumnos_proyectados": 43,
+            "semestre": 2,
+            "carrera_id": 6,
+            "docente_id": 23,
+            "sala_id": 6
+        },
+        {
+            "id": 37,
+            "nombre": "Salud y Cuidados de Párvulos",
+            "codigo": "EP-231-0",
+            "horas_teoricas": 2,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 43,
+            "semestre": 2,
+            "carrera_id": 6,
+            "docente_id": 24,
+            "sala_id": 6
+        },
+        {
+            "id": 38,
+            "nombre": "Corporalidad y Movimiento",
+            "codigo": "EP-241-0",
+            "horas_teoricas": 1,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 43,
+            "semestre": 2,
+            "carrera_id": 6,
+            "docente_id": 25,
+            "sala_id": 6
+        },
+        {
+            "id": 39,
+            "nombre": "Diversidad e Inclusión en la Educ Parvularia",
+            "codigo": "EP-411-0",
+            "horas_teoricas": 2,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 33,
+            "semestre": 4,
+            "carrera_id": 6,
+            "docente_id": 26,
+            "sala_id": 6
+        },
+        {
+            "id": 40,
+            "nombre": "Prepráctica",
+            "codigo": "EP-421-0",
+            "horas_teoricas": 0,
+            "horas_practicas": 5,
+            "alumnos_proyectados": 33,
+            "semestre": 4,
+            "carrera_id": 6,
+            "docente_id": 23,
+            "sala_id": 6
+        },
+        {
+            "id": 41,
+            "nombre": "Cuidados Integrales de Enfermería",
+            "codigo": "ET 212-0",
+            "horas_teoricas": 6,
+            "horas_practicas": 9,
+            "alumnos_proyectados": 50,
+            "semestre": 2,
+            "carrera_id": 8,
+            "docente_id": 27,
+            "sala_id": 7
+        },
+        {
+            "id": 42,
+            "nombre": "Salud Familiar y Comunitaria",
+            "codigo": "ET 152-2",
+            "horas_teoricas": 2,
+            "horas_practicas": 3,
+            "alumnos_proyectados": 50,
+            "semestre": 2,
+            "carrera_id": 8,
+            "docente_id": 24,
+            "sala_id": 7
+        },
+        {
+            "id": 43,
+            "nombre": "Sistemas Informáticos en Salud",
+            "codigo": "ET 232-0",
+            "horas_teoricas": 2,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 50,
+            "semestre": 2,
+            "carrera_id": 8,
+            "docente_id": 28,
+            "sala_id": 7
+        },
+        {
+            "id": 44,
+            "nombre": "Administración de Fármacos",
+            "codigo": "ET 22-0",
+            "horas_teoricas": 6,
+            "horas_practicas": 9,
+            "alumnos_proyectados": 50,
+            "semestre": 2,
+            "carrera_id": 8,
+            "docente_id": 29,
+            "sala_id": 7
+        },
+        {
+            "id": 45,
+            "nombre": "Psicología Social Comunitaria y Familiar",
+            "codigo": "IR-210-0",
+            "horas_teoricas": 3,
+            "horas_practicas": 1,
+            "alumnos_proyectados": 14,
+            "semestre": 2,
+            "carrera_id": 9,
+            "docente_id": 15,
+            "sala_id": 8
+        },
+        {
+            "id": 46,
+            "nombre": "Primeros Auxilios",
+            "codigo": "IR-410-0",
+            "horas_teoricas": 0,
+            "horas_practicas": 3,
+            "alumnos_proyectados": 29,
+            "semestre": 4,
+            "carrera_id": 9,
+            "docente_id": 29,
+            "sala_id": 8
+        },
+        {
+            "id": 47,
+            "nombre": "Motoniveladora Bulldozer y Cargador",
+            "codigo": "MP-101-2",
+            "horas_teoricas": 1,
+            "horas_practicas": 3,
+            "alumnos_proyectados": 35,
+            "semestre": 2,
+            "carrera_id": 10,
+            "docente_id": 31,
+            "sala_id": 9
+        },
+        {
+            "id": 48,
+            "nombre": "Operación de Maquinaria Pesada Media",
+            "codigo": "MP-102-2",
+            "horas_teoricas": 0,
+            "horas_practicas": 12,
+            "alumnos_proyectados": 35,
+            "semestre": 2,
+            "carrera_id": 10,
+            "docente_id": 31,
+            "sala_id": 9
+        },
+        {
+            "id": 49,
+            "nombre": "Motores de Combustión Interna",
+            "codigo": "MP-201-0",
+            "horas_teoricas": 2,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 35,
+            "semestre": 2,
+            "carrera_id": 10,
+            "docente_id": 32,
+            "sala_id": 9
+        },
+        {
+            "id": 50,
+            "nombre": "Motores de Combustión Diesel",
+            "codigo": "ME-111-2",
+            "horas_teoricas": 1,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 30,
+            "semestre": 2,
+            "carrera_id": 11,
+            "docente_id": 32,
+            "sala_id": 10
+        },
+        {
+            "id": 51,
+            "nombre": "Frenos",
+            "codigo": "ME-121-2",
+            "horas_teoricas": 1,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 30,
+            "semestre": 2,
+            "carrera_id": 11,
+            "docente_id": 33,
+            "sala_id": 10
+        },
+        {
+            "id": 52,
+            "nombre": "Control Electronico de Motores Diesel",
+            "codigo": "ME-311-2",
+            "horas_teoricas": 1,
+            "horas_practicas": 2,
+            "alumnos_proyectados": 43,
+            "semestre": 2,
+            "carrera_id": 6,
+            "docente_id": 23,
+            "sala_id": 6
+        }
+    ],
+    "carrera_semestres": [
+        {
+            "id": 1,
+            "carrera_id": 1,
+            "semestre": 1
+        },
+        {
+            "id": 2,
+            "carrera_id": 1,
+            "semestre": 2
+        },
+        {
+            "id": 3,
+            "carrera_id": 1,
+            "semestre": 3
+        },
+        {
+            "id": 4,
+            "carrera_id": 1,
+            "semestre": 4
+        },
+        {
+            "id": 5,
+            "carrera_id": 2,
+            "semestre": 1
+        },
+        {
+            "id": 6,
+            "carrera_id": 2,
+            "semestre": 2
+        },
+        {
+            "id": 7,
+            "carrera_id": 2,
+            "semestre": 3
+        },
+        {
+            "id": 8,
+            "carrera_id": 2,
+            "semestre": 4
+        },
+        {
+            "id": 9,
+            "carrera_id": 3,
+            "semestre": 1
+        },
+        {
+            "id": 10,
+            "carrera_id": 3,
+            "semestre": 2
+        },
+        {
+            "id": 11,
+            "carrera_id": 3,
+            "semestre": 3
+        },
+        {
+            "id": 12,
+            "carrera_id": 3,
+            "semestre": 4
+        },
+        {
+            "id": 13,
+            "carrera_id": 4,
+            "semestre": 1
+        },
+        {
+            "id": 14,
+            "carrera_id": 4,
+            "semestre": 2
+        },
+        {
+            "id": 15,
+            "carrera_id": 4,
+            "semestre": 3
+        },
+        {
+            "id": 16,
+            "carrera_id": 4,
+            "semestre": 4
+        },
+        {
+            "id": 17,
+            "carrera_id": 5,
+            "semestre": 1
+        },
+        {
+            "id": 18,
+            "carrera_id": 5,
+            "semestre": 2
+        },
+        {
+            "id": 19,
+            "carrera_id": 5,
+            "semestre": 3
+        },
+        {
+            "id": 20,
+            "carrera_id": 5,
+            "semestre": 4
+        },
+        {
+            "id": 21,
+            "carrera_id": 6,
+            "semestre": 1
+        },
+        {
+            "id": 22,
+            "carrera_id": 6,
+            "semestre": 2
+        },
+        {
+            "id": 23,
+            "carrera_id": 6,
+            "semestre": 3
+        },
+        {
+            "id": 24,
+            "carrera_id": 6,
+            "semestre": 4
+        },
+        {
+            "id": 25,
+            "carrera_id": 7,
+            "semestre": 1
+        },
+        {
+            "id": 26,
+            "carrera_id": 7,
+            "semestre": 2
+        },
+        {
+            "id": 27,
+            "carrera_id": 7,
+            "semestre": 3
+        },
+        {
+            "id": 28,
+            "carrera_id": 7,
+            "semestre": 4
+        },
+        {
+            "id": 29,
+            "carrera_id": 8,
+            "semestre": 1
+        },
+        {
+            "id": 30,
+            "carrera_id": 8,
+            "semestre": 2
+        },
+        {
+            "id": 31,
+            "carrera_id": 8,
+            "semestre": 3
+        },
+        {
+            "id": 32,
+            "carrera_id": 8,
+            "semestre": 4
+        },
+        {
+            "id": 33,
+            "carrera_id": 9,
+            "semestre": 1
+        },
+        {
+            "id": 34,
+            "carrera_id": 9,
+            "semestre": 2
+        },
+        {
+            "id": 35,
+            "carrera_id": 9,
+            "semestre": 3
+        },
+        {
+            "id": 36,
+            "carrera_id": 9,
+            "semestre": 4
+        },
+        {
+            "id": 37,
+            "carrera_id": 10,
+            "semestre": 1
+        },
+        {
+            "id": 38,
+            "carrera_id": 10,
+            "semestre": 2
+        },
+        {
+            "id": 39,
+            "carrera_id": 10,
+            "semestre": 3
+        },
+        {
+            "id": 40,
+            "carrera_id": 10,
+            "semestre": 4
+        },
+        {
+            "id": 41,
+            "carrera_id": 11,
+            "semestre": 1
+        },
+        {
+            "id": 42,
+            "carrera_id": 11,
+            "semestre": 2
+        },
+        {
+            "id": 43,
+            "carrera_id": 11,
+            "semestre": 3
+        },
+        {
+            "id": 44,
+            "carrera_id": 11,
+            "semestre": 4
+        },
+        {
+            "id": 45,
+            "carrera_id": 12,
+            "semestre": 1
+        },
+        {
+            "id": 46,
+            "carrera_id": 12,
+            "semestre": 2
+        },
+        {
+            "id": 47,
+            "carrera_id": 12,
+            "semestre": 3
+        },
+        {
+            "id": 48,
+            "carrera_id": 12,
+            "semestre": 4
+        }
+    ],
+    "carrera_salas": [
+        {
+            "carrera_id": 1,
+            "sala_id": 1
+        },
+        {
+            "carrera_id": 1,
+            "sala_id": 2
+        },
+        {
+            "carrera_id": 1,
+            "sala_id": 3
+        },
+        {
+            "carrera_id": 1,
+            "sala_id": 4
+        },
+        {
+            "carrera_id": 1,
+            "sala_id": 6
+        },
+        {
+            "carrera_id": 1,
+            "sala_id": 9
+        },
+        {
+            "carrera_id": 1,
+            "sala_id": 10
+        },
+        {
+            "carrera_id": 2,
+            "sala_id": 2
+        },
+        {
+            "carrera_id": 3,
+            "sala_id": 3
+        },
+        {
+            "carrera_id": 4,
+            "sala_id": 1
+        },
+        {
+            "carrera_id": 4,
+            "sala_id": 2
+        },
+        {
+            "carrera_id": 4,
+            "sala_id": 3
+        },
+        {
+            "carrera_id": 4,
+            "sala_id": 4
+        },
+        {
+            "carrera_id": 4,
+            "sala_id": 5
+        },
+        {
+            "carrera_id": 4,
+            "sala_id": 6
+        },
+        {
+            "carrera_id": 4,
+            "sala_id": 9
+        },
+        {
+            "carrera_id": 4,
+            "sala_id": 10
+        },
+        {
+            "carrera_id": 5,
+            "sala_id": 5
+        },
+        {
+            "carrera_id": 6,
+            "sala_id": 6
+        },
+        {
+            "carrera_id": 7,
+            "sala_id": 6
+        },
+        {
+            "carrera_id": 8,
+            "sala_id": 7
+        },
+        {
+            "carrera_id": 9,
+            "sala_id": 8
+        },
+        {
+            "carrera_id": 10,
+            "sala_id": 9
+        },
+        {
+            "carrera_id": 11,
+            "sala_id": 10
+        },
+        {
+            "carrera_id": 12,
+            "sala_id": 1
+        },
+        {
+            "carrera_id": 12,
+            "sala_id": 5
+        },
+        {
+            "carrera_id": 12,
+            "sala_id": 6
+        },
+        {
+            "carrera_id": 12,
+            "sala_id": 10
+        }
+    ],
+    "disponibilidad_docentes": [
+        {
+            "id": 1,
+            "docente_id": 27,
+            "dia": "LUNES",
+            "hora": "08:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 2,
+            "docente_id": 27,
+            "dia": "LUNES",
+            "hora": "09:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 3,
+            "docente_id": 27,
+            "dia": "LUNES",
+            "hora": "10:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 4,
+            "docente_id": 27,
+            "dia": "LUNES",
+            "hora": "11:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 5,
+            "docente_id": 27,
+            "dia": "LUNES",
+            "hora": "12:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 6,
+            "docente_id": 27,
+            "dia": "LUNES",
+            "hora": "12:45",
+            "estado": "no_disponible"
+        },
+        {
+            "id": 7,
+            "docente_id": 27,
+            "dia": "LUNES",
+            "hora": "14:30",
+            "estado": "no_disponible"
+        },
+        {
+            "id": 8,
+            "docente_id": 27,
+            "dia": "LUNES",
+            "hora": "15:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 9,
+            "docente_id": 27,
+            "dia": "LUNES",
+            "hora": "16:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 10,
+            "docente_id": 27,
+            "dia": "LUNES",
+            "hora": "17:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 11,
+            "docente_id": 27,
+            "dia": "LUNES",
+            "hora": "18:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 12,
+            "docente_id": 27,
+            "dia": "LUNES",
+            "hora": "18:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 13,
+            "docente_id": 27,
+            "dia": "LUNES",
+            "hora": "19:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 14,
+            "docente_id": 27,
+            "dia": "LUNES",
+            "hora": "20:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 15,
+            "docente_id": 27,
+            "dia": "LUNES",
+            "hora": "21:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 16,
+            "docente_id": 27,
+            "dia": "LUNES",
+            "hora": "22:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 17,
+            "docente_id": 27,
+            "dia": "MARTES",
+            "hora": "08:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 18,
+            "docente_id": 27,
+            "dia": "MARTES",
+            "hora": "09:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 19,
+            "docente_id": 27,
+            "dia": "MARTES",
+            "hora": "10:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 20,
+            "docente_id": 27,
+            "dia": "MARTES",
+            "hora": "11:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 21,
+            "docente_id": 27,
+            "dia": "MARTES",
+            "hora": "12:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 22,
+            "docente_id": 27,
+            "dia": "MARTES",
+            "hora": "12:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 23,
+            "docente_id": 27,
+            "dia": "MARTES",
+            "hora": "14:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 24,
+            "docente_id": 27,
+            "dia": "MARTES",
+            "hora": "15:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 25,
+            "docente_id": 27,
+            "dia": "MARTES",
+            "hora": "16:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 26,
+            "docente_id": 27,
+            "dia": "MARTES",
+            "hora": "17:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 27,
+            "docente_id": 27,
+            "dia": "MARTES",
+            "hora": "18:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 28,
+            "docente_id": 27,
+            "dia": "MARTES",
+            "hora": "18:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 29,
+            "docente_id": 27,
+            "dia": "MARTES",
+            "hora": "19:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 30,
+            "docente_id": 27,
+            "dia": "MARTES",
+            "hora": "20:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 31,
+            "docente_id": 27,
+            "dia": "MARTES",
+            "hora": "21:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 32,
+            "docente_id": 27,
+            "dia": "MARTES",
+            "hora": "22:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 33,
+            "docente_id": 27,
+            "dia": "MIERCOLES",
+            "hora": "08:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 34,
+            "docente_id": 27,
+            "dia": "MIERCOLES",
+            "hora": "09:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 35,
+            "docente_id": 27,
+            "dia": "MIERCOLES",
+            "hora": "10:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 36,
+            "docente_id": 27,
+            "dia": "MIERCOLES",
+            "hora": "11:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 37,
+            "docente_id": 27,
+            "dia": "MIERCOLES",
+            "hora": "12:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 38,
+            "docente_id": 27,
+            "dia": "MIERCOLES",
+            "hora": "12:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 39,
+            "docente_id": 27,
+            "dia": "MIERCOLES",
+            "hora": "14:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 40,
+            "docente_id": 27,
+            "dia": "MIERCOLES",
+            "hora": "15:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 41,
+            "docente_id": 27,
+            "dia": "MIERCOLES",
+            "hora": "16:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 42,
+            "docente_id": 27,
+            "dia": "MIERCOLES",
+            "hora": "17:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 43,
+            "docente_id": 27,
+            "dia": "MIERCOLES",
+            "hora": "18:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 44,
+            "docente_id": 27,
+            "dia": "MIERCOLES",
+            "hora": "18:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 45,
+            "docente_id": 27,
+            "dia": "MIERCOLES",
+            "hora": "19:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 46,
+            "docente_id": 27,
+            "dia": "MIERCOLES",
+            "hora": "20:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 47,
+            "docente_id": 27,
+            "dia": "MIERCOLES",
+            "hora": "21:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 48,
+            "docente_id": 27,
+            "dia": "MIERCOLES",
+            "hora": "22:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 49,
+            "docente_id": 27,
+            "dia": "JUEVES",
+            "hora": "08:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 50,
+            "docente_id": 27,
+            "dia": "JUEVES",
+            "hora": "09:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 51,
+            "docente_id": 27,
+            "dia": "JUEVES",
+            "hora": "10:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 52,
+            "docente_id": 27,
+            "dia": "JUEVES",
+            "hora": "11:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 53,
+            "docente_id": 27,
+            "dia": "JUEVES",
+            "hora": "12:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 54,
+            "docente_id": 27,
+            "dia": "JUEVES",
+            "hora": "12:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 55,
+            "docente_id": 27,
+            "dia": "JUEVES",
+            "hora": "14:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 56,
+            "docente_id": 27,
+            "dia": "JUEVES",
+            "hora": "15:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 57,
+            "docente_id": 27,
+            "dia": "JUEVES",
+            "hora": "16:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 58,
+            "docente_id": 27,
+            "dia": "JUEVES",
+            "hora": "17:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 59,
+            "docente_id": 27,
+            "dia": "JUEVES",
+            "hora": "18:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 60,
+            "docente_id": 27,
+            "dia": "JUEVES",
+            "hora": "18:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 61,
+            "docente_id": 27,
+            "dia": "JUEVES",
+            "hora": "19:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 62,
+            "docente_id": 27,
+            "dia": "JUEVES",
+            "hora": "20:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 63,
+            "docente_id": 27,
+            "dia": "JUEVES",
+            "hora": "21:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 64,
+            "docente_id": 27,
+            "dia": "JUEVES",
+            "hora": "22:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 65,
+            "docente_id": 27,
+            "dia": "VIERNES",
+            "hora": "08:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 66,
+            "docente_id": 27,
+            "dia": "VIERNES",
+            "hora": "09:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 67,
+            "docente_id": 27,
+            "dia": "VIERNES",
+            "hora": "10:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 68,
+            "docente_id": 27,
+            "dia": "VIERNES",
+            "hora": "11:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 69,
+            "docente_id": 27,
+            "dia": "VIERNES",
+            "hora": "12:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 70,
+            "docente_id": 27,
+            "dia": "VIERNES",
+            "hora": "12:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 71,
+            "docente_id": 27,
+            "dia": "VIERNES",
+            "hora": "14:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 72,
+            "docente_id": 27,
+            "dia": "VIERNES",
+            "hora": "15:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 73,
+            "docente_id": 27,
+            "dia": "VIERNES",
+            "hora": "16:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 74,
+            "docente_id": 27,
+            "dia": "VIERNES",
+            "hora": "17:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 75,
+            "docente_id": 27,
+            "dia": "VIERNES",
+            "hora": "18:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 76,
+            "docente_id": 27,
+            "dia": "VIERNES",
+            "hora": "18:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 77,
+            "docente_id": 27,
+            "dia": "VIERNES",
+            "hora": "19:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 78,
+            "docente_id": 27,
+            "dia": "VIERNES",
+            "hora": "20:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 79,
+            "docente_id": 27,
+            "dia": "VIERNES",
+            "hora": "21:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 80,
+            "docente_id": 27,
+            "dia": "VIERNES",
+            "hora": "22:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 81,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "08:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 82,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "09:05",
+            "estado": "disponible"
+        },
+        {
+            "id": 83,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "09:40",
+            "estado": "disponible"
+        },
+        {
+            "id": 84,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "10:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 85,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "10:50",
+            "estado": "disponible"
+        },
+        {
+            "id": 86,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "11:25",
+            "estado": "disponible"
+        },
+        {
+            "id": 87,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "12:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 88,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "12:35",
+            "estado": "disponible"
+        },
+        {
+            "id": 89,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "13:10",
+            "estado": "disponible"
+        },
+        {
+            "id": 90,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "13:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 91,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "14:20",
+            "estado": "disponible"
+        },
+        {
+            "id": 92,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "14:55",
+            "estado": "disponible"
+        },
+        {
+            "id": 93,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "15:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 94,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "16:05",
+            "estado": "disponible"
+        },
+        {
+            "id": 95,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "16:40",
+            "estado": "disponible"
+        },
+        {
+            "id": 96,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "17:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 97,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "17:50",
+            "estado": "disponible"
+        },
+        {
+            "id": 98,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "18:25",
+            "estado": "disponible"
+        },
+        {
+            "id": 99,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "19:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 100,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "19:35",
+            "estado": "disponible"
+        },
+        {
+            "id": 101,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "20:10",
+            "estado": "disponible"
+        },
+        {
+            "id": 102,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "20:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 103,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "21:20",
+            "estado": "disponible"
+        },
+        {
+            "id": 104,
+            "docente_id": 35,
+            "dia": "LUNES",
+            "hora": "21:55",
+            "estado": "disponible"
+        },
+        {
+            "id": 105,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "08:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 106,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "09:05",
+            "estado": "disponible"
+        },
+        {
+            "id": 107,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "09:40",
+            "estado": "disponible"
+        },
+        {
+            "id": 108,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "10:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 109,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "10:50",
+            "estado": "disponible"
+        },
+        {
+            "id": 110,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "11:25",
+            "estado": "disponible"
+        },
+        {
+            "id": 111,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "12:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 112,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "12:35",
+            "estado": "disponible"
+        },
+        {
+            "id": 113,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "13:10",
+            "estado": "disponible"
+        },
+        {
+            "id": 114,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "13:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 115,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "14:20",
+            "estado": "disponible"
+        },
+        {
+            "id": 116,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "14:55",
+            "estado": "disponible"
+        },
+        {
+            "id": 117,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "15:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 118,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "16:05",
+            "estado": "disponible"
+        },
+        {
+            "id": 119,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "16:40",
+            "estado": "disponible"
+        },
+        {
+            "id": 120,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "17:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 121,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "17:50",
+            "estado": "disponible"
+        },
+        {
+            "id": 122,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "18:25",
+            "estado": "disponible"
+        },
+        {
+            "id": 123,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "19:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 124,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "19:35",
+            "estado": "disponible"
+        },
+        {
+            "id": 125,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "20:10",
+            "estado": "disponible"
+        },
+        {
+            "id": 126,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "20:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 127,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "21:20",
+            "estado": "disponible"
+        },
+        {
+            "id": 128,
+            "docente_id": 35,
+            "dia": "MARTES",
+            "hora": "21:55",
+            "estado": "disponible"
+        },
+        {
+            "id": 129,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "08:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 130,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "09:05",
+            "estado": "disponible"
+        },
+        {
+            "id": 131,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "09:40",
+            "estado": "disponible"
+        },
+        {
+            "id": 132,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "10:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 133,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "10:50",
+            "estado": "disponible"
+        },
+        {
+            "id": 134,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "11:25",
+            "estado": "disponible"
+        },
+        {
+            "id": 135,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "12:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 136,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "12:35",
+            "estado": "disponible"
+        },
+        {
+            "id": 137,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "13:10",
+            "estado": "disponible"
+        },
+        {
+            "id": 138,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "13:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 139,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "14:20",
+            "estado": "disponible"
+        },
+        {
+            "id": 140,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "14:55",
+            "estado": "disponible"
+        },
+        {
+            "id": 141,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "15:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 142,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "16:05",
+            "estado": "disponible"
+        },
+        {
+            "id": 143,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "16:40",
+            "estado": "disponible"
+        },
+        {
+            "id": 144,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "17:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 145,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "17:50",
+            "estado": "disponible"
+        },
+        {
+            "id": 146,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "18:25",
+            "estado": "disponible"
+        },
+        {
+            "id": 147,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "19:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 148,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "19:35",
+            "estado": "disponible"
+        },
+        {
+            "id": 149,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "20:10",
+            "estado": "disponible"
+        },
+        {
+            "id": 150,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "20:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 151,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "21:20",
+            "estado": "disponible"
+        },
+        {
+            "id": 152,
+            "docente_id": 35,
+            "dia": "MIERCOLES",
+            "hora": "21:55",
+            "estado": "disponible"
+        },
+        {
+            "id": 153,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "08:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 154,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "09:05",
+            "estado": "disponible"
+        },
+        {
+            "id": 155,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "09:40",
+            "estado": "disponible"
+        },
+        {
+            "id": 156,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "10:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 157,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "10:50",
+            "estado": "disponible"
+        },
+        {
+            "id": 158,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "11:25",
+            "estado": "disponible"
+        },
+        {
+            "id": 159,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "12:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 160,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "12:35",
+            "estado": "disponible"
+        },
+        {
+            "id": 161,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "13:10",
+            "estado": "disponible"
+        },
+        {
+            "id": 162,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "13:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 163,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "14:20",
+            "estado": "disponible"
+        },
+        {
+            "id": 164,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "14:55",
+            "estado": "disponible"
+        },
+        {
+            "id": 165,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "15:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 166,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "16:05",
+            "estado": "disponible"
+        },
+        {
+            "id": 167,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "16:40",
+            "estado": "disponible"
+        },
+        {
+            "id": 168,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "17:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 169,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "17:50",
+            "estado": "disponible"
+        },
+        {
+            "id": 170,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "18:25",
+            "estado": "disponible"
+        },
+        {
+            "id": 171,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "19:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 172,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "19:35",
+            "estado": "disponible"
+        },
+        {
+            "id": 173,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "20:10",
+            "estado": "disponible"
+        },
+        {
+            "id": 174,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "20:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 175,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "21:20",
+            "estado": "disponible"
+        },
+        {
+            "id": 176,
+            "docente_id": 35,
+            "dia": "JUEVES",
+            "hora": "21:55",
+            "estado": "disponible"
+        },
+        {
+            "id": 177,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "08:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 178,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "09:05",
+            "estado": "disponible"
+        },
+        {
+            "id": 179,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "09:40",
+            "estado": "disponible"
+        },
+        {
+            "id": 180,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "10:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 181,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "10:50",
+            "estado": "disponible"
+        },
+        {
+            "id": 182,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "11:25",
+            "estado": "disponible"
+        },
+        {
+            "id": 183,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "12:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 184,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "12:35",
+            "estado": "disponible"
+        },
+        {
+            "id": 185,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "13:10",
+            "estado": "disponible"
+        },
+        {
+            "id": 186,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "13:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 187,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "14:20",
+            "estado": "disponible"
+        },
+        {
+            "id": 188,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "14:55",
+            "estado": "disponible"
+        },
+        {
+            "id": 189,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "15:30",
+            "estado": "disponible"
+        },
+        {
+            "id": 190,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "16:05",
+            "estado": "disponible"
+        },
+        {
+            "id": 191,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "16:40",
+            "estado": "disponible"
+        },
+        {
+            "id": 192,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "17:15",
+            "estado": "disponible"
+        },
+        {
+            "id": 193,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "17:50",
+            "estado": "disponible"
+        },
+        {
+            "id": 194,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "18:25",
+            "estado": "disponible"
+        },
+        {
+            "id": 195,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "19:00",
+            "estado": "disponible"
+        },
+        {
+            "id": 196,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "19:35",
+            "estado": "disponible"
+        },
+        {
+            "id": 197,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "20:10",
+            "estado": "disponible"
+        },
+        {
+            "id": 198,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "20:45",
+            "estado": "disponible"
+        },
+        {
+            "id": 199,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "21:20",
+            "estado": "disponible"
+        },
+        {
+            "id": 200,
+            "docente_id": 35,
+            "dia": "VIERNES",
+            "hora": "21:55",
+            "estado": "disponible"
+        }
+    ],
+    "modulo_horarios": [
+        {
+            "id": 1,
+            "modulo_id": 1,
+            "dia": "LUNES",
+            "hora_inicio": "08:30",
+            "hora_fin": "10:15"
+        },
+        {
+            "id": 2,
+            "modulo_id": 1,
+            "dia": "MIERCOLES",
+            "hora_inicio": "08:30",
+            "hora_fin": "09:15"
+        },
+        {
+            "id": 3,
+            "modulo_id": 2,
+            "dia": "LUNES",
+            "hora_inicio": "10:15",
+            "hora_fin": "12:00"
+        },
+        {
+            "id": 4,
+            "modulo_id": 2,
+            "dia": "MIERCOLES",
+            "hora_inicio": "10:15",
+            "hora_fin": "12:00"
+        },
+        {
+            "id": 5,
+            "modulo_id": 3,
+            "dia": "MARTES",
+            "hora_inicio": "08:30",
+            "hora_fin": "10:15"
+        },
+        {
+            "id": 6,
+            "modulo_id": 3,
+            "dia": "JUEVES",
+            "hora_inicio": "08:30",
+            "hora_fin": "10:15"
+        },
+        {
+            "id": 7,
+            "modulo_id": 4,
+            "dia": "MARTES",
+            "hora_inicio": "10:15",
+            "hora_fin": "12:00"
+        },
+        {
+            "id": 8,
+            "modulo_id": 5,
+            "dia": "JUEVES",
+            "hora_inicio": "10:15",
+            "hora_fin": "12:00"
+        },
+        {
+            "id": 9,
+            "modulo_id": 6,
+            "dia": "VIERNES",
+            "hora_inicio": "08:30",
+            "hora_fin": "11:00"
+        },
+        {
+            "id": 10,
+            "modulo_id": 7,
+            "dia": "LUNES",
+            "hora_inicio": "18:00",
+            "hora_fin": "19:45"
+        },
+        {
+            "id": 11,
+            "modulo_id": 7,
+            "dia": "MIERCOLES",
+            "hora_inicio": "18:00",
+            "hora_fin": "19:45"
+        },
+        {
+            "id": 12,
+            "modulo_id": 8,
+            "dia": "LUNES",
+            "hora_inicio": "19:45",
+            "hora_fin": "21:30"
+        },
+        {
+            "id": 13,
+            "modulo_id": 8,
+            "dia": "MIERCOLES",
+            "hora_inicio": "19:45",
+            "hora_fin": "21:30"
+        },
+        {
+            "id": 14,
+            "modulo_id": 9,
+            "dia": "MARTES",
+            "hora_inicio": "18:00",
+            "hora_fin": "19:45"
+        },
+        {
+            "id": 15,
+            "modulo_id": 9,
+            "dia": "JUEVES",
+            "hora_inicio": "18:00",
+            "hora_fin": "19:45"
+        },
+        {
+            "id": 16,
+            "modulo_id": 10,
+            "dia": "MARTES",
+            "hora_inicio": "19:45",
+            "hora_fin": "21:30"
+        },
+        {
+            "id": 17,
+            "modulo_id": 10,
+            "dia": "JUEVES",
+            "hora_inicio": "19:45",
+            "hora_fin": "21:30"
+        },
+        {
+            "id": 18,
+            "modulo_id": 11,
+            "dia": "VIERNES",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:30"
+        },
+        {
+            "id": 19,
+            "modulo_id": 12,
+            "dia": "VIERNES",
+            "hora_inicio": "14:30",
+            "hora_fin": "17:00"
+        },
+        {
+            "id": 20,
+            "modulo_id": 13,
+            "dia": "VIERNES",
+            "hora_inicio": "20:30",
+            "hora_fin": "22:15"
+        },
+        {
+            "id": 21,
+            "modulo_id": 14,
+            "dia": "LUNES",
+            "hora_inicio": "08:30",
+            "hora_fin": "11:00"
+        },
+        {
+            "id": 22,
+            "modulo_id": 14,
+            "dia": "MIERCOLES",
+            "hora_inicio": "08:30",
+            "hora_fin": "10:15"
+        },
+        {
+            "id": 23,
+            "modulo_id": 15,
+            "dia": "MARTES",
+            "hora_inicio": "08:30",
+            "hora_fin": "11:00"
+        },
+        {
+            "id": 24,
+            "modulo_id": 16,
+            "dia": "JUEVES",
+            "hora_inicio": "08:30",
+            "hora_fin": "11:00"
+        },
+        {
+            "id": 25,
+            "modulo_id": 16,
+            "dia": "VIERNES",
+            "hora_inicio": "08:30",
+            "hora_fin": "10:15"
+        },
+        {
+            "id": 26,
+            "modulo_id": 17,
+            "dia": "LUNES",
+            "hora_inicio": "11:00",
+            "hora_fin": "12:45"
+        },
+        {
+            "id": 27,
+            "modulo_id": 17,
+            "dia": "MIERCOLES",
+            "hora_inicio": "10:15",
+            "hora_fin": "12:00"
+        },
+        {
+            "id": 28,
+            "modulo_id": 18,
+            "dia": "MARTES",
+            "hora_inicio": "11:00",
+            "hora_fin": "12:45"
+        },
+        {
+            "id": 29,
+            "modulo_id": 19,
+            "dia": "JUEVES",
+            "hora_inicio": "11:00",
+            "hora_fin": "12:45"
+        },
+        {
+            "id": 30,
+            "modulo_id": 20,
+            "dia": "VIERNES",
+            "hora_inicio": "10:15",
+            "hora_fin": "12:45"
+        },
+        {
+            "id": 31,
+            "modulo_id": 21,
+            "dia": "LUNES",
+            "hora_inicio": "08:30",
+            "hora_fin": "11:00"
+        },
+        {
+            "id": 32,
+            "modulo_id": 22,
+            "dia": "LUNES",
+            "hora_inicio": "11:00",
+            "hora_fin": "12:45"
+        },
+        {
+            "id": 35,
+            "modulo_id": 24,
+            "dia": "MARTES",
+            "hora_inicio": "10:15",
+            "hora_fin": "12:45"
+        },
+        {
+            "id": 36,
+            "modulo_id": 25,
+            "dia": "MIERCOLES",
+            "hora_inicio": "10:15",
+            "hora_fin": "12:45"
+        },
+        {
+            "id": 38,
+            "modulo_id": 27,
+            "dia": "JUEVES",
+            "hora_inicio": "11:00",
+            "hora_fin": "12:45"
+        },
+        {
+            "id": 39,
+            "modulo_id": 28,
+            "dia": "VIERNES",
+            "hora_inicio": "08:30",
+            "hora_fin": "12:00"
+        },
+        {
+            "id": 40,
+            "modulo_id": 29,
+            "dia": "VIERNES",
+            "hora_inicio": "12:00",
+            "hora_fin": "12:45"
+        },
+        {
+            "id": 41,
+            "modulo_id": 30,
+            "dia": "LUNES",
+            "hora_inicio": "08:30",
+            "hora_fin": "10:15"
+        },
+        {
+            "id": 42,
+            "modulo_id": 30,
+            "dia": "MARTES",
+            "hora_inicio": "08:30",
+            "hora_fin": "10:15"
+        },
+        {
+            "id": 43,
+            "modulo_id": 31,
+            "dia": "MIERCOLES",
+            "hora_inicio": "08:30",
+            "hora_fin": "10:15"
+        },
+        {
+            "id": 44,
+            "modulo_id": 31,
+            "dia": "JUEVES",
+            "hora_inicio": "08:30",
+            "hora_fin": "10:15"
+        },
+        {
+            "id": 45,
+            "modulo_id": 32,
+            "dia": "LUNES",
+            "hora_inicio": "10:15",
+            "hora_fin": "12:00"
+        },
+        {
+            "id": 46,
+            "modulo_id": 32,
+            "dia": "MARTES",
+            "hora_inicio": "10:15",
+            "hora_fin": "12:00"
+        },
+        {
+            "id": 47,
+            "modulo_id": 32,
+            "dia": "MIERCOLES",
+            "hora_inicio": "10:15",
+            "hora_fin": "11:00"
+        },
+        {
+            "id": 48,
+            "modulo_id": 33,
+            "dia": "MIERCOLES",
+            "hora_inicio": "11:00",
+            "hora_fin": "12:00"
+        },
+        {
+            "id": 49,
+            "modulo_id": 33,
+            "dia": "JUEVES",
+            "hora_inicio": "10:15",
+            "hora_fin": "12:00"
+        },
+        {
+            "id": 50,
+            "modulo_id": 34,
+            "dia": "VIERNES",
+            "hora_inicio": "08:30",
+            "hora_fin": "12:00"
+        },
+        {
+            "id": 51,
+            "modulo_id": 35,
+            "dia": "VIERNES",
+            "hora_inicio": "12:00",
+            "hora_fin": "12:45"
+        },
+        {
+            "id": 52,
+            "modulo_id": 36,
+            "dia": "LUNES",
+            "hora_inicio": "08:30",
+            "hora_fin": "10:15"
+        },
+        {
+            "id": 54,
+            "modulo_id": 38,
+            "dia": "MIERCOLES",
+            "hora_inicio": "08:30",
+            "hora_fin": "10:15"
+        },
+        {
+            "id": 55,
+            "modulo_id": 39,
+            "dia": "JUEVES",
+            "hora_inicio": "08:30",
+            "hora_fin": "10:15"
+        },
+        {
+            "id": 56,
+            "modulo_id": 40,
+            "dia": "VIERNES",
+            "hora_inicio": "08:30",
+            "hora_fin": "10:15"
+        },
+        {
+            "id": 57,
+            "modulo_id": 41,
+            "dia": "LUNES",
+            "hora_inicio": "10:15",
+            "hora_fin": "12:00"
+        },
+        {
+            "id": 58,
+            "modulo_id": 42,
+            "dia": "LUNES",
+            "hora_inicio": "18:00",
+            "hora_fin": "19:45"
+        },
+        {
+            "id": 59,
+            "modulo_id": 43,
+            "dia": "MARTES",
+            "hora_inicio": "18:00",
+            "hora_fin": "19:45"
+        },
+        {
+            "id": 60,
+            "modulo_id": 44,
+            "dia": "LUNES",
+            "hora_inicio": "08:30",
+            "hora_fin": "10:15"
+        },
+        {
+            "id": 61,
+            "modulo_id": 45,
+            "dia": "MARTES",
+            "hora_inicio": "08:30",
+            "hora_fin": "10:15"
+        },
+        {
+            "id": 62,
+            "modulo_id": 46,
+            "dia": "MIERCOLES",
+            "hora_inicio": "08:30",
+            "hora_fin": "10:15"
+        },
+        {
+            "id": 63,
+            "modulo_id": 47,
+            "dia": "JUEVES",
+            "hora_inicio": "08:30",
+            "hora_fin": "10:15"
+        },
+        {
+            "id": 64,
+            "modulo_id": 48,
+            "dia": "VIERNES",
+            "hora_inicio": "08:30",
+            "hora_fin": "10:15"
+        },
+        {
+            "id": 67,
+            "modulo_id": 51,
+            "dia": "LUNES",
+            "hora_inicio": "08:30",
+            "hora_fin": "11:00"
+        },
+        {
+            "id": 68,
+            "modulo_id": 52,
+            "dia": "MARTES",
+            "hora_inicio": "08:30",
+            "hora_fin": "11:00"
+        },
+        {
+            "id": 69,
+            "modulo_id": 37,
+            "dia": "MIERCOLES",
+            "hora_inicio": "10:15",
+            "hora_fin": "12:45"
+        },
+        {
+            "id": 70,
+            "modulo_id": 49,
+            "dia": "MARTES",
+            "hora_inicio": "08:30",
+            "hora_fin": "11:00"
+        },
+        {
+            "id": 71,
+            "modulo_id": 50,
+            "dia": "MIERCOLES",
+            "hora_inicio": "08:30",
+            "hora_fin": "10:25"
+        },
+        {
+            "id": 72,
+            "modulo_id": 23,
+            "dia": "MARTES",
+            "hora_inicio": "08:30",
+            "hora_fin": "09:50"
+        },
+        {
+            "id": 73,
+            "modulo_id": 23,
+            "dia": "MIERCOLES",
+            "hora_inicio": "08:30",
+            "hora_fin": "09:50"
+        },
+        {
+            "id": 74,
+            "modulo_id": 26,
+            "dia": "JUEVES",
+            "hora_inicio": "08:30",
+            "hora_fin": "10:25"
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+# Dependencias para la versión Flet del Sistema de Gestión Académica
+flet>=0.21.0
+mysql-connector-python

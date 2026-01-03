@@ -1,0 +1,81 @@
+﻿id,nombre,codigo,horas_teoricas,horas_practicas,alumnos_proyectados,semestre,carrera_id,docente_id,sala_id
+1013,Fundamentos de Administración,ADM001,2,3,80,1,73,331,141
+1014,Contabilidad General,ADM002,3,4,80,1,73,332,142
+1015,Matemáticas Aplicadas,ADM003,4,2,80,1,73,333,143
+1016,Economía,ADM004,2,3,80,1,73,334,144
+1017,Gestión de Recursos Humanos,ADM005,3,4,80,1,73,335,145
+1018,Marketing,ADM006,4,2,80,1,73,336,146
+1019,Finanzas,ADM007,2,3,80,1,73,337,147
+1020,Derecho Empresarial,ADM008,3,4,80,1,73,338,148
+1021,Estadística,ADM009,4,2,80,1,73,339,149
+1022,Gestión Pública,ADM010,2,3,80,1,73,340,150
+1023,Programación I,COM001,2,3,80,1,74,341,151
+1024,Programación II,COM002,3,4,80,3,74,342,152
+1025,Estructuras de Datos,COM003,4,2,80,1,74,343,153
+1026,Algoritmos,COM004,2,3,80,1,74,344,154
+1027,Bases de Datos,COM005,3,4,80,1,74,345,155
+1028,Redes de Computadores,COM006,4,2,80,1,74,346,156
+1029,Sistemas Operativos,COM007,2,3,80,1,74,347,157
+1030,Ciberseguridad Básica,COM008,3,4,80,1,74,348,158
+1031,Criptografía,COM009,4,2,80,1,74,349,159
+1032,Seguridad en Redes,COM010,2,3,80,1,74,350,160
+1033,Desarrollo Infantil,EDU001,3,3,80,1,75,351,141
+1034,Didáctica del Juego,EDU002,3,4,80,1,75,352,142
+1035,Psicología del Aprendizaje,EDU003,4,2,80,1,75,353,143
+1036,Neurociencia,EDU004,2,3,80,1,75,354,144
+1037,Lenguaje y Comunicación,EDU005,3,4,80,1,75,355,145
+1038,Matemáticas Iniciales,EDU006,4,2,80,1,75,356,146
+1039,Ciencias Naturales,EDU007,2,3,80,1,75,357,147
+1040,Artes Plásticas,EDU008,3,4,80,1,75,358,148
+1041,Música y Movimiento,EDU009,4,2,80,1,75,359,149
+1042,Literatura Infantil,EDU010,2,3,80,1,75,360,150
+1043,Circuitos Eléctricos,ELE001,2,3,80,1,76,361,151
+1044,Electrónica Digital,ELE002,3,4,80,1,76,362,152
+1045,Electrónica Analógica,ELE003,4,6,80,1,76,363,153
+1046,Máquinas Eléctricas,ELE004,2,3,80,1,76,364,154
+1047,Sistemas de Control,ELE005,3,4,80,1,76,365,155
+1048,Automatización Industrial,ELE006,4,2,80,1,76,366,156
+1049,PLC,ELE007,2,3,80,1,76,367,157
+1050,Instrumentación,ELE008,3,4,80,1,76,338,142
+1051,Instalaciones Eléctricas,ELE009,4,2,80,1,76,369,159
+1052,Sistemas de Potencia,ELE010,2,3,80,1,76,370,160
+1053,Anatomía y Fisiología,ENF001,2,3,80,1,77,371,141
+1054,Enfermería Básica,ENF002,3,4,80,1,77,372,142
+1055,Farmacología,ENF003,4,2,80,1,77,373,143
+1056,Microbiología,ENF004,2,3,80,1,77,374,144
+1057,Enfermería Médica,ENF005,3,4,80,1,77,375,145
+1058,Enfermería Quirúrgica,ENF006,4,2,80,1,77,376,146
+1059,Enfermería Pediátrica,ENF007,2,3,80,1,77,377,147
+1060,Salud Mental,ENF008,3,4,80,1,77,378,148
+1061,Salud Pública,ENF009,4,2,80,1,77,379,149
+1062,Telemedicina,ENF010,2,3,80,1,77,380,150
+1063,Legislación Laboral,PRE001,2,3,80,2,78,381,151
+1064,Higiene Industrial,PRE002,3,4,80,1,78,382,153
+1065,Seguridad Industrial,PRE003,4,2,80,1,78,383,154
+1066,Ergonomía,PRE004,2,3,80,1,78,384,155
+1067,Toxicología,PRE005,3,4,80,1,78,385,156
+1068,Gestión de Riesgos,PRE006,4,2,80,1,78,386,157
+1069,Prevención de Incendios,PRE007,2,3,80,1,78,387,158
+1070,Primeros Auxilios,PRE008,3,4,80,1,78,388,159
+1071,Sistemas de Gestión,PRE009,4,2,80,1,78,389,160
+1072,ISO 45001,PRE010,2,3,80,1,78,390,141
+1073,Operación de Maquinaria,MAQ001,2,3,80,1,79,331,142
+1074,Mantenimiento Preventivo,MAQ002,3,4,80,1,79,332,143
+1075,Mecánica Básica,MAQ003,4,2,80,1,79,333,144
+1076,Hidráulica,MAQ004,2,3,80,1,79,334,145
+1077,Neumática,MAQ005,3,4,80,1,79,335,146
+1078,Sistemas Eléctricos,MAQ006,4,2,80,1,79,336,147
+1079,Motores Diesel,MAQ007,2,3,80,1,79,337,148
+1080,Excavadoras,MAQ008,3,4,80,1,79,338,149
+1081,Seguridad en Operación,MAQ009,4,2,80,1,79,339,150
+1082,Topografía,MAQ010,2,3,80,1,79,340,151
+1083,Mecánica Automotriz,MEC001,2,3,80,1,80,341,152
+1084,Sistemas Hidráulicos,MEC002,3,4,80,1,80,342,141
+1085,Sistemas Neumáticos,MEC003,4,2,80,1,80,343,142
+1086,Motores Diesel,MEC004,2,3,80,1,80,344,143
+1087,Sistemas de Inyección,MEC005,3,4,80,1,80,345,144
+1088,Transmisiones Automáticas,MEC006,4,2,80,1,80,346,145
+1089,Electrónica Automotriz,MEC007,2,3,80,1,80,347,146
+1090,Soldadura Industrial,MEC008,3,4,80,1,80,348,147
+1091,Mantenimiento Predictivo,MEC009,4,2,80,1,80,349,148
+1092,Gestión de Repuestos,MEC010,2,3,80,1,80,350,149
