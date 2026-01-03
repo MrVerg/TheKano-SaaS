@@ -83,10 +83,11 @@ class SistemaGestionFlet:
         self.page.bgcolor = self.colores['background']
         
         # Configurar fuentes
-        self.page.fonts = {
-            "Roboto": "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-        }
-        self.page.font_family = "Roboto"
+        # Configurar fuentes (Uso de Roboto por defecto de Flet)
+        # self.page.fonts = {
+        #     "Roboto": "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+        # }
+        # self.page.theme_mode = ft.ThemeMode.LIGHT
         
         # Define standard time blocks for the application (35-minute intervals)
         self.bloques_horarios = [
@@ -3930,6 +3931,7 @@ def main(page: ft.Page):
 # Ejecutar la aplicación
 # Ejecutar la aplicación
 if __name__ == "__main__":
-    # Configuración para despliegue web
+    # Configuración para despliegue web - NECESARIO host="0.0.0.0" para Render
     port = int(os.getenv("PORT", 8080))
-    ft.app(target=main, view=ft.AppView.WEB_BROWSER, port=port, assets_dir="assets")
+    print(f"Iniciando servidor Flet en puerto {port}...")
+    ft.app(target=main, view=ft.AppView.WEB_BROWSER, port=port, assets_dir="assets", host="0.0.0.0")
