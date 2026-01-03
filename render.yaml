@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: thekano-saas
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main_flet_moderno.py
+    envVars:
+      - key: DB_HOST
+        sync: false
+      - key: DB_NAME
+        value: sistema_gestion_academica
+      - key: DB_USER
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
+      - key: PYTHON_VERSION
+        value: 3.10.0
