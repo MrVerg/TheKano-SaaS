@@ -22,6 +22,7 @@ class Database:
                     database=self.database,
                     user=self.user,
                     password=self.password,
+                    port=int(os.getenv('DB_PORT', 3306)),
                     connect_timeout=5,  # 5 second timeout
                     charset='utf8mb4',
                     cursorclass=pymysql.cursors.DictCursor
