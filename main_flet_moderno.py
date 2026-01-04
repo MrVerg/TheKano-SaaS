@@ -2626,15 +2626,18 @@ class SistemaGestionFlet:
         
         # Obtener semestres de la carrera para crear las pestañas
         semestres = self.dao.obtener_semestres_carrera(carrera['id'])
-        tabs = [ft.Tab(text="Todos")]
+        tab_labels = ["Todos"]
+        tabs = [ft.Tab(tab_content=ft.Text("Todos"))]
         if semestres:
             semestres.sort()
             for s in semestres:
-                tabs.append(ft.Tab(text=f"Semestre {s}"))
+                label = f"Semestre {s}"
+                tab_labels.append(label)
+                tabs.append(ft.Tab(tab_content=ft.Text(label)))
         
         # Handler para cambio de pestaña
         def on_tab_change(e):
-            semestre_seleccionado = tabs[e.control.selected_index].text
+            semestre_seleccionado = tab_labels[e.control.selected_index]
             self._actualizar_vista_modulos(carrera['id'], semestre_seleccionado, search_field.value)
 
         # Handler para búsqueda
