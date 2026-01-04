@@ -429,7 +429,7 @@ class SistemaGestionFlet:
                         self.password_field,
                         
                         # Botón de login
-                        ft.FilledButton(
+                        ft.ElevatedButton(
                             content=ft.Row([
                                 ft.Text(
                                     value="🚀 Iniciar Sesión",
@@ -1072,7 +1072,7 @@ class SistemaGestionFlet:
         """Crea el panel lateral de gestión de salas"""
         self.salas_list_view = ft.Column(scroll=ft.ScrollMode.AUTO, expand=True, spacing=10)
         
-        btn_agregar = ft.FilledButton(
+        btn_agregar = ft.ElevatedButton(
             "Añadir Sala",
             icon=ft.Icons.ADD,
             style=ft.ButtonStyle(
@@ -1149,7 +1149,7 @@ class SistemaGestionFlet:
             padding=10
         )
         
-        btn_agregar = ft.FilledButton(
+        btn_agregar = ft.ElevatedButton(
             "Añadir Carrera",
             icon=ft.Icons.ADD,
             on_click=self.agregar_carrera,
@@ -1242,7 +1242,7 @@ class SistemaGestionFlet:
                             ft.Text(f"Código: {mod.get('codigo', 'N/A')} | {carrera_nombre}", size=12, color="grey"),
                             ft.Text(f"Docente: {mod.get('docente_nombre', 'Sin asignar')} | Sala: {mod.get('sala_nombre', 'Sin sala')}", size=12, color="grey")
                         ], expand=True),
-                        ft.FilledButton(
+                        ft.ElevatedButton(
                             "Editar", 
                             icon=ft.Icons.EDIT, 
                             on_click=lambda e, m=mod: self.ir_a_modulo(m),
@@ -1284,7 +1284,7 @@ class SistemaGestionFlet:
             content=ft.Text(f"¿Está seguro que desea eliminar la carrera '{carrera['nombre']}'?"),
             actions=[
                 ft.TextButton("Cancelar", on_click=lambda e: self.cerrar_dialogo(dialogo_confirmacion)),
-                ft.FilledButton("Confirmar", on_click=confirmar_eliminacion, bgcolor='#E74C3C', color='white')
+                ft.ElevatedButton("Confirmar", on_click=confirmar_eliminacion, bgcolor='#E74C3C', color='white')
             ],
         )
         self.abrir_dialogo(dialogo_confirmacion)
@@ -1475,7 +1475,7 @@ class SistemaGestionFlet:
             ),
             actions=[
                 ft.TextButton("Cancelar", on_click=lambda e: self.cerrar_dialogo(dialogo)),
-                ft.FilledButton("💾 Guardar", bgcolor='#27AE60', color='white', on_click=guardar_carrera_handler),
+                ft.ElevatedButton("💾 Guardar", bgcolor='#27AE60', color='white', on_click=guardar_carrera_handler),
             ],
             actions_alignment=ft.MainAxisAlignment.END
         )
@@ -1678,7 +1678,7 @@ class SistemaGestionFlet:
             height=45
         )
         
-        btn_agregar = ft.FilledButton(
+        btn_agregar = ft.ElevatedButton(
             "Añadir Docente",
             icon=ft.Icons.ADD,
             style=ft.ButtonStyle(
@@ -1727,7 +1727,7 @@ class SistemaGestionFlet:
             content=ft.Text(f"¿Está seguro que desea eliminar al docente '{docente['nombre']}'?"),
             actions=[
                 ft.TextButton("Cancelar", on_click=lambda e: self.cerrar_dialogo(dialogo_confirmacion)),
-                ft.FilledButton("Confirmar", on_click=confirmar_eliminacion, bgcolor='#E74C3C', color='white')
+                ft.ElevatedButton("Confirmar", on_click=confirmar_eliminacion, bgcolor='#E74C3C', color='white')
             ],
         )
         self.abrir_dialogo(dialogo_confirmacion)
@@ -2050,7 +2050,7 @@ class SistemaGestionFlet:
         
         self._actualizar_vista_docentes()
 
-        btn_agregar = ft.FilledButton(
+        btn_agregar = ft.ElevatedButton(
             "Añadir Docente",
             icon=ft.Icons.ADD,
             on_click=self.agregar_docente,
@@ -2408,7 +2408,7 @@ class SistemaGestionFlet:
             ),
             actions=[
                 ft.TextButton("Cancelar", on_click=lambda e: self.cerrar_dialogo(dialogo_docente)),
-                ft.FilledButton("💾 Guardar", bgcolor='#27AE60', color='white', on_click=guardar_docente_handler)
+                ft.ElevatedButton("💾 Guardar", bgcolor='#27AE60', color='white', on_click=guardar_docente_handler)
             ],
             actions_alignment=ft.MainAxisAlignment.END
         )
@@ -2520,10 +2520,10 @@ class SistemaGestionFlet:
                 ft.Divider(height=1),
                 ft.Container(
                     content=ft.Row([
-                        ft.FilledButton("Editar", icon=ft.Icons.EDIT, 
+                        ft.ElevatedButton("Editar", icon=ft.Icons.EDIT, 
                                         on_click=lambda e, m=modulo: self.editar_modulo(m, on_save=on_save), 
                                         style=ft.ButtonStyle(padding=5, bgcolor='#3498DB', color='white')),
-                        ft.FilledButton("Eliminar", icon=ft.Icons.DELETE, 
+                        ft.ElevatedButton("Eliminar", icon=ft.Icons.DELETE, 
                                         on_click=lambda e, m=modulo: self.eliminar_modulo(m), 
                                         style=ft.ButtonStyle(padding=5, bgcolor='#E74C3C', color='white')),
                     ], alignment=ft.MainAxisAlignment.END, spacing=5),
@@ -2617,7 +2617,7 @@ class SistemaGestionFlet:
             expand=True
         )
 
-        btn_agregar = ft.FilledButton(
+        btn_agregar = ft.ElevatedButton(
             "Añadir Módulo",
             icon=ft.Icons.ADD,
             on_click=lambda e: self.agregar_modulo(e, carrera),
@@ -2625,24 +2625,26 @@ class SistemaGestionFlet:
         )
         
         # Obtener semestres de la carrera para crear las pestañas
+        # Obtener semestres de la carrera para crear las pestañas
         semestres = self.dao.obtener_semestres_carrera(carrera['id'])
         tab_labels = ["Todos"]
-        tabs = [ft.Tab(label=ft.Text("Todos"))]
+        tabs = [ft.Tab(text="Todos")]
         if semestres:
             semestres.sort()
             for s in semestres:
                 label = f"Semestre {s}"
                 tab_labels.append(label)
-                tabs.append(ft.Tab(label=ft.Text(label)))
+                tabs.append(ft.Tab(text=label))
         
         # Handler para cambio de pestaña
         def on_tab_change(e):
-            semestre_seleccionado = tab_labels[e.control.selected_index]
+            # En la versión 0.28.3, e.control.tabs[index].text es válido
+            semestre_seleccionado = tabs[tabs_control.selected_index].text
             self._actualizar_vista_modulos(carrera['id'], semestre_seleccionado, search_field.value)
 
         # Handler para búsqueda
         def on_search_change(e):
-            semestre_seleccionado = tab_labels[tabs_control.selected_index]
+            semestre_seleccionado = tabs[tabs_control.selected_index].text
             self._actualizar_vista_modulos(carrera['id'], semestre_seleccionado, search_field.value)
             
         search_field.on_change = on_search_change
@@ -2694,7 +2696,7 @@ class SistemaGestionFlet:
             content=ft.Text(f"¿Está seguro que desea eliminar el módulo '{modulo['nombre']}'?\n\n⚠️ Esta acción eliminará también todos los horarios asociados y no se puede deshacer."),
             actions=[
                 ft.TextButton("Cancelar", on_click=lambda e: self.cerrar_dialogo(dialogo_confirmacion)),
-                ft.FilledButton("Confirmar", on_click=confirmar_eliminacion, bgcolor='#E74C3C', color='white')
+                ft.ElevatedButton("Confirmar", on_click=confirmar_eliminacion, bgcolor='#E74C3C', color='white')
             ],
             actions_alignment=ft.MainAxisAlignment.END
         )
