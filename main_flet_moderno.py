@@ -511,8 +511,12 @@ class SistemaGestionFlet:
         if not hasattr(self, 'btn_notificaciones') or not hasattr(self, 'badge_notificaciones'):
             return
         
-        # Verificar que los controles estén en la página
-        if not hasattr(self.btn_notificaciones, 'page') or self.btn_notificaciones.page is None:
+        # Verificar que los controles estén en la página (puede lanzar RuntimeError)
+        try:
+            _ = self.btn_notificaciones.page
+            if _ is None:
+                return
+        except (RuntimeError, AttributeError):
             return
 
         try:
