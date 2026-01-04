@@ -1,6 +1,7 @@
 import os
 import logging
 import pymysql
+from pymysql.err import Error
 from dotenv import load_dotenv
 
 # Cargar variables de entorno si existen
@@ -604,7 +605,8 @@ class SistemaDAO:
             
         except Error as e:
             # Check if error is "Table doesn't exist" (1146)
-            if e.errno == 1146 and "modulo_horarios" in str(e):
+            logging.error(f"Error en guardar_modulo - errno: {getattr(e, 'errno', 'N/A')}, mensaje: {str(e)}")
+            if hasattr(e, 'errno') and e.errno == 1146 and "modulo_horarios" in str(e):
                 logging.warning("⚠️ Tabla 'modulo_horarios' no existe. Creando automáticamente...")
                 try:
                     create_table_query = """
@@ -628,14 +630,20 @@ class SistemaDAO:
                                             (modulo_id, dia, hora_inicio, hora_fin) 
                                             VALUES (%s, %s, %s, %s)""", horario_data)
                     connection.commit()
+                    logging.info(f"✅ Guardado exitoso después de crear tabla. modulo_id={modulo_id}")
                     return modulo_id
                 except Exception as ex:
                     logging.error(f"❌ Error fatal creando/guardando en modulo_horarios: {ex}")
                     connection.rollback()
                     return None
             
-            logging.error(f"Error guardando módulo: {e}")
+            logging.error(f"Error guardando módulo (no es tabla faltante): {e}")
             connection.rollback()
+            return None
+        except Exception as e:
+            logging.error(f"Error inesperado en guardar_modulo: {type(e).__name__} - {str(e)}")
+            if connection:
+                connection.rollback()
             return None
         finally:
             if cursor:
