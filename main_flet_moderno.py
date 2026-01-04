@@ -134,8 +134,8 @@ class SistemaGestionFlet:
             content=ft.Stack([
                 ft.Container(
                     gradient=ft.LinearGradient(
-                        begin=ft.alignment.top_left,
-                        end=ft.alignment.bottom_right,
+                        begin=ft.Alignment(-1, -1),
+                        end=ft.Alignment(1, 1),
                         colors=['#667eea', '#764ba2']
                     ),
                     expand=True
@@ -183,7 +183,7 @@ class SistemaGestionFlet:
                     ],
                     horizontal_alignment=ft.CrossAxisAlignment.CENTER,
                     alignment=ft.MainAxisAlignment.CENTER),
-                    alignment=ft.alignment.center,
+                    alignment=ft.Alignment(0, 0),
                     expand=True
                 )
             ]),
@@ -348,15 +348,15 @@ class SistemaGestionFlet:
             content=ft.Stack([
                 ft.Container(
                     gradient=ft.LinearGradient(
-                        begin=ft.alignment.top_left,
-                        end=ft.alignment.bottom_right,
+                        begin=ft.Alignment(-1, -1),
+                        end=ft.Alignment(1, 1),
                         colors=['#667eea', '#764ba2']
                     ),
                     expand=True
                 ),
                 ft.Container(
                     content=self.crear_formulario_login(),
-                    alignment=ft.alignment.center,
+                    alignment=ft.Alignment(0, 0),
                     expand=True
                 )
             ]),
@@ -421,7 +421,7 @@ class SistemaGestionFlet:
                                     text_align=ft.TextAlign.CENTER
                                 )
                             ]),
-                            alignment=ft.alignment.center,
+                            alignment=ft.Alignment(0, 0),
                             margin=ft.margin.only(bottom=30)
                         ),
                         
@@ -464,7 +464,7 @@ class SistemaGestionFlet:
                     spacing=20,
                     horizontal_alignment=ft.CrossAxisAlignment.CENTER),
                     padding=40,
-                    alignment=ft.alignment.center
+                    alignment=ft.Alignment(0, 0)
                 ),
                 elevation=10,
                 shape=ft.RoundedRectangleBorder(radius=16)
@@ -684,7 +684,7 @@ class SistemaGestionFlet:
             border_radius=10,
             width=16,
             height=16,
-            alignment=ft.alignment.center,
+            alignment=ft.Alignment(0, 0),
             visible=False,
             right=0,
             top=0
@@ -766,8 +766,8 @@ class SistemaGestionFlet:
             bgcolor='#2C3E50',
             padding=ft.padding.symmetric(horizontal=30, vertical=20),
             gradient=ft.LinearGradient(
-                begin=ft.alignment.top_left,
-                end=ft.alignment.top_right,
+                begin=ft.Alignment(-1, -1),
+                end=ft.Alignment(1, -1),
                 colors=['#2C3E50', '#3498DB']
             )
         )
@@ -866,8 +866,8 @@ class SistemaGestionFlet:
             bgcolor='#2C3E50',
             padding=ft.padding.symmetric(horizontal=30, vertical=20),
             gradient=ft.LinearGradient(
-                begin=ft.alignment.top_left,
-                end=ft.alignment.top_right,
+                begin=ft.Alignment(-1, -1),
+                end=ft.Alignment(1, -1),
                 colors=['#2C3E50', '#3498DB']
             )
         )
@@ -982,7 +982,7 @@ class SistemaGestionFlet:
                 headers.append(ft.Container(
                     content=ft.Text(dia, weight=ft.FontWeight.BOLD, size=12, text_align=ft.TextAlign.CENTER),
                     width=100,
-                    alignment=ft.alignment.center
+                    alignment=ft.Alignment(0, 0)
                 ))
             
             grid_rows = [ft.Row(headers)]
@@ -993,7 +993,7 @@ class SistemaGestionFlet:
                     ft.Container(
                         content=ft.Text(f"{inicio}\n{fin}", size=10, weight=ft.FontWeight.BOLD),
                         width=80,
-                        alignment=ft.alignment.center_right,
+                        alignment=ft.Alignment(1, 0),
                         padding=5
                     )
                 ]
@@ -1015,7 +1015,7 @@ class SistemaGestionFlet:
                         bgcolor=self.colores['error'] if ocupado else "#E0E0E0",
                         border_radius=5,
                         padding=2,
-                        alignment=ft.alignment.center,
+                        alignment=ft.Alignment(0, 0),
                         tooltip=f"{dia} {inicio}-{fin}: {modulo_ocupante}" if ocupado else "Disponible"
                     )
                     row_controls.append(btn)
@@ -1084,7 +1084,7 @@ class SistemaGestionFlet:
             ft.Text("🏢 GESTIÓN DE SALAS", weight=ft.FontWeight.BOLD, size=18, color=self.colores['primary']),
             ft.Divider(),
             self.salas_list_view,
-            ft.Container(content=btn_agregar, alignment=ft.alignment.center, margin=ft.margin.only(top=10))
+            ft.Container(content=btn_agregar, alignment=ft.Alignment(0, 0), margin=ft.margin.only(top=10))
         ], expand=True)
     
     def _actualizar_vista_carreras(self):
@@ -1213,7 +1213,7 @@ class SistemaGestionFlet:
                         ft.Icon(ft.Icons.SEARCH_OFF, size=50, color="grey"),
                         ft.Text("No se encontraron módulos", color="grey")
                     ], horizontal_alignment=ft.CrossAxisAlignment.CENTER),
-                    alignment=ft.alignment.center,
+                    alignment=ft.Alignment(0, 0),
                     padding=20
                 )
             )
@@ -1334,7 +1334,7 @@ class SistemaGestionFlet:
                 bgcolor="#27AE60" if is_selected else "#ECF0F1",
                 padding=10,
                 border_radius=8,
-                alignment=ft.alignment.center,
+                alignment=ft.Alignment(0, 0),
                 data={'sala_id': sala['id'], 'selected': is_selected},
                 on_click=toggle_sala,
                 ink=True,
@@ -1452,14 +1452,14 @@ class SistemaGestionFlet:
                         content=left_column,
                         expand=2,  # 40% width
                         padding=ft.padding.only(right=20),
-                        alignment=ft.alignment.top_left
+                        alignment=ft.Alignment(-1, -1)
                     ),
                     ft.VerticalDivider(width=1),
                     ft.Container(
                         content=right_column,
                         expand=3,  # 60% width
                         padding=10,
-                        alignment=ft.alignment.top_left
+                        alignment=ft.Alignment(-1, -1)
                     )
                 ], expand=True),
                 width=1000,
@@ -1691,7 +1691,7 @@ class SistemaGestionFlet:
             search_field,
             ft.Container(height=10),
             self.docentes_list_view,
-            ft.Container(content=btn_agregar, alignment=ft.alignment.center, margin=ft.margin.only(top=10))
+            ft.Container(content=btn_agregar, alignment=ft.Alignment(0, 0), margin=ft.margin.only(top=10))
         ], expand=True)
     
     def agregar_docente(self, e):
@@ -1951,13 +1951,13 @@ class SistemaGestionFlet:
         
         disponibilidad = self.dao.obtener_disponibilidad_docente(docente['id'])
         
-        headers = [ft.Container(content=ft.Text("Hora", weight=ft.FontWeight.BOLD, color='white', size=12), bgcolor='#2C3E50', padding=10, width=80, alignment=ft.alignment.center, border_radius=4)]
+        headers = [ft.Container(content=ft.Text("Hora", weight=ft.FontWeight.BOLD, color='white', size=12), bgcolor='#2C3E50', padding=10, width=80, alignment=ft.Alignment(0, 0), border_radius=4)]
         for dia in dias:
-            headers.append(ft.Container(content=ft.Text(dia, weight=ft.FontWeight.BOLD, color='white', size=12), bgcolor='#2C3E50', padding=10, expand=True, alignment=ft.alignment.center, border_radius=4))
+            headers.append(ft.Container(content=ft.Text(dia, weight=ft.FontWeight.BOLD, color='white', size=12), bgcolor='#2C3E50', padding=10, expand=True, alignment=ft.Alignment(0, 0), border_radius=4))
 
         grid_rows = []
         for inicio, fin in bloques:
-            row_cells = [ft.Container(content=ft.Text(inicio, size=10, weight=ft.FontWeight.BOLD), width=80, alignment=ft.alignment.center, bgcolor='#F8F9FA', border_radius=4, padding=5)]
+            row_cells = [ft.Container(content=ft.Text(inicio, size=10, weight=ft.FontWeight.BOLD), width=80, alignment=ft.Alignment(0, 0), bgcolor='#F8F9FA', border_radius=4, padding=5)]
             for dia in dias:
                 modulos_en_bloque = [mh['modulo'] for mh in modulos_con_horarios if mh['dia'].upper() == dia and hora_en_rango(inicio, mh['hora_inicio'], mh['hora_fin'])]
                 is_disponible = disponibilidad.get(dia, {}).get(inicio, True)
@@ -2165,14 +2165,14 @@ class SistemaGestionFlet:
         
         # Create grid headers with expand for equal width
         grid_headers = [ft.Container(content=ft.Text("Hora", size=11, weight=ft.FontWeight.BOLD, color='white'), 
-                                    bgcolor='#2C3E50', padding=8, alignment=ft.alignment.center, 
+                                    bgcolor='#2C3E50', padding=8, alignment=ft.Alignment(0, 0), 
                                     border_radius=4, width=80)]
         for dia in dias:
             header = ft.Container(
                 content=ft.Text(dia, size=11, weight=ft.FontWeight.BOLD, color='white', text_align=ft.TextAlign.CENTER),
                 bgcolor='#2C3E50',
                 padding=8,
-                alignment=ft.alignment.center,
+                alignment=ft.Alignment(0, 0),
                 border_radius=4,
                 expand=True,
                 ink=True,
@@ -2189,7 +2189,7 @@ class SistemaGestionFlet:
                 ft.Container(
                     content=ft.Text(hora, size=11, weight=ft.FontWeight.BOLD),
                     width=80,
-                    alignment=ft.alignment.center,
+                    alignment=ft.Alignment(0, 0),
                     bgcolor='#F8F9FA',
                     border_radius=4,
                     padding=5
@@ -2224,7 +2224,7 @@ class SistemaGestionFlet:
                         bgcolor=color,
                         border_radius=6,
                         padding=10,
-                        alignment=ft.alignment.center,
+                        alignment=ft.Alignment(0, 0),
                         expand=True,
                         ink=not locked,
                         tooltip=tooltip_text
@@ -2385,14 +2385,14 @@ class SistemaGestionFlet:
                         content=left_column, 
                         expand=2, # 40% width
                         padding=ft.padding.only(right=20),
-                        alignment=ft.alignment.top_left
+                        alignment=ft.Alignment(-1, -1)
                     ),
                     ft.VerticalDivider(width=1),
                     ft.Container(
                         content=grid_container, 
                         expand=3, # 60% width
                         padding=10,
-                        alignment=ft.alignment.top_left
+                        alignment=ft.Alignment(-1, -1)
                     )
                 ], expand=True),
                 width=1100,
@@ -2904,14 +2904,14 @@ class SistemaGestionFlet:
                 dias = ["LUNES", "MARTES", "MIERCOLES", "JUEVES", "VIERNES"]
                 
                 # Headers
-                headers = [ft.Container(width=80, content=ft.Text("Hora", weight="bold", color="white"), bgcolor="#2C3E50", padding=5, alignment=ft.alignment.center)]
+                headers = [ft.Container(width=80, content=ft.Text("Hora", weight="bold", color="white"), bgcolor="#2C3E50", padding=5, alignment=ft.Alignment(0, 0))]
                 for d in dias:
-                    headers.append(ft.Container(expand=True, content=ft.Text(d, weight="bold", color="white"), bgcolor="#2C3E50", padding=5, alignment=ft.alignment.center))
+                    headers.append(ft.Container(expand=True, content=ft.Text(d, weight="bold", color="white"), bgcolor="#2C3E50", padding=5, alignment=ft.Alignment(0, 0)))
                 
                 rows = [ft.Row(headers)]
                 
                 for hora in self.bloques_horarios:
-                    row_cells = [ft.Container(width=80, content=ft.Text(hora, weight="bold"), bgcolor="#ECF0F1", padding=5, alignment=ft.alignment.center)]
+                    row_cells = [ft.Container(width=80, content=ft.Text(hora, weight="bold"), bgcolor="#ECF0F1", padding=5, alignment=ft.Alignment(0, 0))]
                     
                     for dia in dias:
                         status, info = get_slot_status(dia, hora)
@@ -3328,14 +3328,14 @@ class SistemaGestionFlet:
                             content=left_column, 
                             expand=2, # 40% width
                             padding=ft.padding.only(right=20),
-                            alignment=ft.alignment.top_left
+                            alignment=ft.Alignment(-1, -1)
                         ),
                         ft.VerticalDivider(width=1),
                         ft.Container(
                             content=right_column, 
                             expand=3, # 60% width
                             padding=10,
-                            alignment=ft.alignment.top_left
+                            alignment=ft.Alignment(-1, -1)
                         )
                     ], expand=True),
                     width=1100, # Increased width for 2 columns
