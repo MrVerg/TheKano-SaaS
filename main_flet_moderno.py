@@ -2827,7 +2827,6 @@ class SistemaGestionFlet:
                 # If editing, get current module schedules
                 mod_horarios = []
                 if modulo and str(modulo.get('docente_id')) == str(docente_id):
-                if modulo and str(modulo.get('docente_id')) == str(docente_id):
                     mod_horarios = self.dao.obtener_horarios_modulo(modulo['id']) or []
                     logging.info(f"Módulo {modulo.get('nombre')}: {len(mod_horarios)} horarios encontrados")
                     for h in mod_horarios:
