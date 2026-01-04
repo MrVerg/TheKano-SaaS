@@ -915,8 +915,8 @@ class SistemaGestionFlet:
                         ], expand=True),
                         ft.PopupMenuButton(
                             items=[
-                                ft.PopupMenuItem(text="Editar", icon=ft.Icons.EDIT, on_click=lambda e, s=sala: self.editar_sala(s)),
-                                ft.PopupMenuItem(text="Eliminar", icon=ft.Icons.DELETE, on_click=lambda e, s=sala: self.eliminar_sala(s)),
+                                ft.PopupMenuItem(content=ft.Text("Editar"), icon=ft.Icons.EDIT, on_click=lambda e, s=sala: self.editar_sala(s)),
+                                ft.PopupMenuItem(content=ft.Text("Eliminar"), icon=ft.Icons.DELETE, on_click=lambda e, s=sala: self.eliminar_sala(s)),
                             ]
                         )
                     ]),
@@ -1629,8 +1629,8 @@ class SistemaGestionFlet:
                             ], expand=True),
                             ft.PopupMenuButton(
                                 items=[
-                                    ft.PopupMenuItem(text="Editar", icon=ft.Icons.EDIT, on_click=lambda e, d=docente: self.editar_docente(d)),
-                                    ft.PopupMenuItem(text="Eliminar", icon=ft.Icons.DELETE, on_click=lambda e, d=docente: self.eliminar_docente(d)),
+                                    ft.PopupMenuItem(content=ft.Text("Editar"), icon=ft.Icons.EDIT, on_click=lambda e, d=docente: self.editar_docente(d)),
+                                    ft.PopupMenuItem(content=ft.Text("Eliminar"), icon=ft.Icons.DELETE, on_click=lambda e, d=docente: self.eliminar_docente(d)),
                                 ]
                             )
                         ], spacing=10),
