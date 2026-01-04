@@ -606,7 +606,15 @@ class SistemaDAO:
         except Error as e:
             # Check if error is "Table doesn't exist" (1146)
             logging.error(f"Error en guardar_modulo - errno: {getattr(e, 'errno', 'N/A')}, mensaje: {str(e)}")
-            if hasattr(e, 'errno') and e.errno == 1146 and "modulo_horarios" in str(e):
+            
+            # Check for error 1146 - handle both attribute and tuple format
+            error_code = getattr(e, 'errno', None)
+            if error_code is None and hasattr(e, 'args') and len(e.args) > 0:
+                # Try to extract from tuple format (1146, "message")
+                if isinstance(e.args[0], int):
+                    error_code = e.args[0]
+            
+            if error_code == 1146 and "modulo_horarios" in str(e):
                 logging.warning("⚠️ Tabla 'modulo_horarios' no existe. Creando automáticamente...")
                 try:
                     create_table_query = """
