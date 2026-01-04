@@ -2819,10 +2819,10 @@ class SistemaGestionFlet:
 
                 # Fetch data con filtro de semestre
                 disponibilidad = self.dao.obtener_disponibilidad_docente(docente_id)
-                ocupados_docente = self.dao.obtener_horarios_ocupados_docente(docente_id, semestre_modulo)
+                ocupados_docente = self.dao.obtener_horarios_ocupados_docente(docente_id, semestre_modulo) or []
                 ocupados_sala = []
                 if sala_id:
-                    ocupados_sala = self.dao.obtener_horarios_ocupados_sala(sala_id, semestre_modulo)
+                    ocupados_sala = self.dao.obtener_horarios_ocupados_sala(sala_id, semestre_modulo) or []
                 
                 # If editing, get current module schedules
                 mod_horarios = []
