@@ -2725,7 +2725,10 @@ class SistemaGestionFlet:
             )
 
             # Dropdowns para relaciones
+            logging.info("DEBUG: Cargando carreras...")
             carreras = self.dao.obtener_carreras()
+            logging.info(f"DEBUG: {len(carreras)} carreras cargadas")
+            
             # Determinar valor inicial de carrera
             carrera_inicial = None
             if modulo and modulo.get('carrera_id'):
@@ -2740,7 +2743,10 @@ class SistemaGestionFlet:
                 disabled=True # Carrera no editable
             )
 
+            logging.info("DEBUG: Cargando docentes...")
             docentes = self.dao.obtener_docentes()
+            logging.info(f"DEBUG: {len(docentes)} docentes cargados")
+            
             docente_dd = ft.Dropdown(
                 label="Docente",
                 value=str(modulo['docente_id']) if modulo and modulo.get('docente_id') else None,
@@ -3366,6 +3372,7 @@ class SistemaGestionFlet:
                 actions_alignment=ft.MainAxisAlignment.END
             )
 
+            logging.info("DEBUG: Intentando abrir diálogo...")
             self.abrir_dialogo(dialogo_modulo)
             logging.info("Diálogo de módulo abierto correctamente.")
             
