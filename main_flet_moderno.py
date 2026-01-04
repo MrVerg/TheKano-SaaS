@@ -510,6 +510,10 @@ class SistemaGestionFlet:
         """Actualiza el estado del centro de notificaciones"""
         if not hasattr(self, 'btn_notificaciones') or not hasattr(self, 'badge_notificaciones'):
             return
+        
+        # Verificar que los controles estén en la página
+        if not hasattr(self.btn_notificaciones, 'page') or self.btn_notificaciones.page is None:
+            return
 
         try:
             modulos = self.dao.obtener_modulos()
