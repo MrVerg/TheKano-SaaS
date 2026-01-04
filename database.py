@@ -192,7 +192,7 @@ class SistemaDAO:
             try:
                 self.db.execute_query(tabla_query)
             except Exception as e:
-                logging.error(f"Error creando tabla: {e}")
+                logging.error(f"Error creando tabla: {e} | Query: {tabla_query[:50]}...")
 
         logging.info("Tablas creadas o verificadas exitosamente.")
 
