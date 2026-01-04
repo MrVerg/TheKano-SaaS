@@ -2,12 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 Sistema de Gestión Académica - Versión Flet Moderna
-CEDUC - Centro Educacional
-Autor: MiniMax Agent
-
-Esta es la versión modernizada con Flet del sistema de gestión académica.
-Incluye una interfaz moderna con Material Design, componentes visuales mejorados,
-y una experiencia de usuario optimizada.
 """
 
 import flet as ft
