@@ -3283,9 +3283,14 @@ class SistemaGestionFlet:
                             return
 
                     logging.info("Guardando módulo en base de datos...")
-                    self.dao.guardar_modulo(modulo_data, final_schedules, modulo_id)
+                    logging.info("Guardando módulo en base de datos...")
+                    resultado = self.dao.guardar_modulo(modulo_data, final_schedules, modulo_id)
                     
-                    self.mostrar_mensaje(f"✅ Módulo '{nombre}' guardado correctamente. Volviendo al dashboard...", 'success')
+                    if not resultado:
+                        self.mostrar_mensaje("❌ Error al guardar datos en la base de datos.", 'error')
+                        return
+
+                    self.mostrar_mensaje(f"✅ Módulo '{nombre}' guardado correctamente.", 'success')
                     self.cerrar_dialogo(dialogo_modulo)
                     
                     # Update notifications

@@ -603,6 +603,37 @@ class SistemaDAO:
             return modulo_id
             
         except Error as e:
+            # Check if error is "Table doesn't exist" (1146)
+            if e.errno == 1146 and "modulo_horarios" in str(e):
+                logging.warning("⚠️ Tabla 'modulo_horarios' no existe. Creando automáticamente...")
+                try:
+                    create_table_query = """
+                    CREATE TABLE IF NOT EXISTS modulo_horarios (
+                        id INT AUTO_INCREMENT PRIMARY KEY,
+                        modulo_id INT,
+                        dia VARCHAR(20),
+                        hora_inicio VARCHAR(10),
+                        hora_fin VARCHAR(10),
+                        FOREIGN KEY (modulo_id) REFERENCES modulos(id) ON DELETE CASCADE
+                    ) ENGINE=InnoDB;
+                    """
+                    cursor.execute(create_table_query)
+                    connection.commit()
+                    logging.info("✅ Tabla 'modulo_horarios' creada exitosamente. Reintentando guardado...")
+                    
+                    # Retry insertion
+                    cursor.execute("DELETE FROM modulo_horarios WHERE modulo_id = %s", (modulo_id,))
+                    if horario_data:
+                        cursor.executemany("""INSERT INTO modulo_horarios 
+                                            (modulo_id, dia, hora_inicio, hora_fin) 
+                                            VALUES (%s, %s, %s, %s)""", horario_data)
+                    connection.commit()
+                    return modulo_id
+                except Exception as ex:
+                    logging.error(f"❌ Error fatal creando/guardando en modulo_horarios: {ex}")
+                    connection.rollback()
+                    return None
+            
             logging.error(f"Error guardando módulo: {e}")
             connection.rollback()
             return None
